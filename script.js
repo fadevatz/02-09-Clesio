@@ -11,9 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const navOverlay = document.getElementById('nav-overlay');
     const navLinks = document.querySelectorAll('.nav-link');
     const faqQuestions = document.querySelectorAll('.faq-question');
-    const whatsappFloatBtn = document.getElementById('whatsapp-float-btn');
-    const whatsappPopup = document.getElementById('whatsapp-popup');
-    const popupClose = document.getElementById('popup-close');
 
     /* ==========================================
        1. Sticky Header & Scroll Effects
@@ -95,33 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     /* ==========================================
-       5. WhatsApp Floating Widget & Popup
-       ========================================== */
-    let popupTimer;
-
-    // Show popup automatically after 6 seconds
-    popupTimer = setTimeout(() => {
-        if (whatsappPopup && !whatsappPopup.classList.contains('active')) {
-            whatsappPopup.classList.add('active');
-        }
-    }, 6000);
-
-    if (whatsappFloatBtn) {
-        whatsappFloatBtn.addEventListener('click', () => {
-            whatsappPopup.classList.toggle('active');
-            clearTimeout(popupTimer);
-        });
-    }
-
-    if (popupClose) {
-        popupClose.addEventListener('click', () => {
-            whatsappPopup.classList.remove('active');
-            clearTimeout(popupTimer);
-        });
-    }
-
-    /* ==========================================
-       6. Scroll Intersection Observer Animations
+       5. Scroll Intersection Observer Animations
        ========================================== */
     const animatedElements = document.querySelectorAll('[data-animate]');
 

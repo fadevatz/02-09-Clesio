@@ -231,15 +231,16 @@ ul {
     z-index: 1000;
     padding: 1.25rem 0;
     transition: var(--transition-normal);
-    background: rgba(16, 17, 18, 0.75);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border-bottom: 1px solid var(--color-border);
+    background: transparent;
+    border-bottom: 1px solid transparent;
 }
 
 .navbar.scrolled {
     padding: 0.85rem 0;
-    background: rgba(16, 17, 18, 0.95);
+    background: rgba(13, 14, 15, 0.92);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--color-border);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 

@@ -71,63 +71,60 @@
     <div class="nav-overlay" id="nav-overlay"></div>
 
     <main>
-        <!-- Hero Section -->
-        <section class="hero-section" id="hero">
-            <div class="hero-bg-overlay"></div>
+        <!-- Hero Section (Banner Layout with Floating Cards) -->
+        <section class="hero-section hero-banner-layout" id="hero">
+            <div class="hero-banner-bg-wrapper">
+                <img src="assets/images/hero-banner-clesio.png" alt="Dr. Clésio Pimenta Psicólogo Banner" class="hero-banner-img">
+            </div>
+            
             <div class="container hero-container">
                 <div class="hero-content" data-animate="fade-right">
                     <div class="badge-pill">
-                        <span class="pulse-dot"></span> Atendimento Presencial & Online (Brasil e Exterior)
+                        <span class="pulse-dot"></span> Atendimento Online & Presencial
                     </div>
                     <h1 class="hero-title">
-                        Transforme sua Vida com <span class="text-gradient">Apoio Psicológico</span> Especializado
+                        Transforme sua Vida com <span class="text-gradient-dark">Apoio Psicológico</span> Especializado
                     </h1>
                     <p class="hero-description">
-                        "Bem-vindo ao meu espaço dedicado à sua saúde emocional e bem-estar. Sou Clésio Pimenta, Psicólogo Clínico, e estou aqui para ajudar você a superar desafios, alcançar seus objetivos e viver uma vida mais equilibrada e feliz. Ofereço atendimento especializado em diversas áreas, sempre com um olhar acolhedor e humanizado."
+                        Atendimento humano, ético e assertivo fundamentado na Terapia Cognitivo-Comportamental (TCC), laudos oficiais e suporte emocional para o Brasil e exterior.
                     </p>
                     
                     <div class="hero-cta-group">
-                        <a href="https://wa.me/5535984434399?text=Ol%C3%A1%2C%20Dr.%20Cl%C3%A9sio!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg" id="hero-primary-cta">
-                            <i class="fab fa-whatsapp"></i> Agendar Consulta Agora
+                        <a href="#especialidades" class="btn btn-primary btn-lg" id="hero-primary-cta">
+                            Conhecer Nossos Serviços <i class="fas fa-arrow-right"></i>
                         </a>
-                        <a href="#sobre" class="btn btn-outline btn-lg" id="hero-secondary-cta">
-                            Conhecer o Psicólogo <i class="fas fa-arrow-down"></i>
+                        <a href="https://wa.me/5535984434399?text=Ol%C3%A1%2C%20Dr.%20Cl%C3%A9sio!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-lg" id="hero-whatsapp-cta">
+                            <i class="fab fa-whatsapp"></i> Agendar Consulta
                         </a>
-                    </div>
-
-                    <!-- Trust Stats Bar -->
-                    <div class="trust-stats">
-                        <div class="stat-item">
-                            <span class="stat-number" data-count="8">+8</span>
-                            <span class="stat-label">Anos de Experiência</span>
-                        </div>
-                        <div class="stat-divider"></div>
-                        <div class="stat-item">
-                            <span class="stat-number">TCC</span>
-                            <span class="stat-label">Abordagem Comprovada</span>
-                        </div>
-                        <div class="stat-divider"></div>
-                        <div class="stat-item">
-                            <span class="stat-number">100%</span>
-                            <span class="stat-label">Sigilo & Ética</span>
-                        </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="hero-media" data-animate="fade-left">
-                    <div class="doctor-image-wrapper">
-                        <div class="doctor-image-frame">
-                            <img src="assets/images/dr-clesio.jpg" alt="Dr. Clésio Pimenta Psicólogo Clínico" class="doctor-img">
-                            <div class="doctor-badge">
-                                <div class="badge-icon"><i class="fas fa-user-md"></i></div>
-                                <div class="badge-info">
-                                    <strong>Dr. Clésio Pimenta</strong>
-                                    <span>CRP 04/48009</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="decorative-circle ring-1"></div>
-                        <div class="decorative-circle ring-2"></div>
+            <!-- Floating Cards Overlap Row -->
+            <div class="hero-floating-cards-container container">
+                <div class="hero-floating-cards">
+                    <div class="floating-card" data-animate="fade-up" data-delay="100">
+                        <div class="floating-card-icon"><i class="fas fa-weight-hanging"></i></div>
+                        <h3>Emagrecimento & Compulsão</h3>
+                        <p>Bariátrica, reestruturação de hábitos e compulsão.</p>
+                    </div>
+
+                    <div class="floating-card" data-animate="fade-up" data-delay="200">
+                        <div class="floating-card-icon"><i class="fas fa-capsules"></i></div>
+                        <h3>Dependências & Vícios</h3>
+                        <p>Telas, substâncias e comportamentos compulsivos.</p>
+                    </div>
+
+                    <div class="floating-card" data-animate="fade-up" data-delay="300">
+                        <div class="floating-card-icon"><i class="fas fa-file-medical"></i></div>
+                        <h3>Laudos Psicológicos</h3>
+                        <p>Bariátrica, vasectomia, concursos e perícias.</p>
+                    </div>
+
+                    <div class="floating-card" data-animate="fade-up" data-delay="400">
+                        <div class="floating-card-icon"><i class="fas fa-trophy"></i></div>
+                        <h3>Psicologia Esportiva</h3>
+                        <p>Mindset de alto rendimento para atletas.</p>
                     </div>
                 </div>
             </div>

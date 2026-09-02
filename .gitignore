@@ -1,0 +1,5 @@
+temp_images/
+extract.py
+download_imgs.py
+*.log
+.DS_Store

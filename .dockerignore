@@ -1,0 +1,7 @@
+.git
+.gitignore
+README.md
+temp_images
+extract.py
+download_imgs.py
+*.log

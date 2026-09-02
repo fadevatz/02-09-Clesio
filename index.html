@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Clésio Pimenta | Psicólogo Clínico - CRP 04/48009</title>
+    <meta name="description" content="Atendimento psicológico especializado presencial em São Sebastião do Paraíso - MG e online para todo o Brasil e exterior. Terapia Cognitivo-Comportamental, laudos e acolhimento humanizado.">
+    <meta name="keywords" content="Psicólogo Clésio Pimenta, Terapia Cognitivo Comportamental, Psicólogo São Sebastião do Paraíso, Atendimento Psicológico Online, Laudos Psicológicos, Psicologia Esportiva, Tratamento Ansiedade Depressão">
+    <meta name="author" content="Dr. Clésio Pimenta">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://clesiopimenta.com.br/">
+    <meta property="og:title" content="Dr. Clésio Pimenta | Psicólogo Clínico - CRP 04/48009">
+    <meta property="og:description" content="Transforme sua vida com apoio psicológico especializado. Terapia Cognitivo-Comportamental presencial e online para o Brasil e exterior.">
+    <meta property="og:image" content="assets/images/dr-clesio.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="nav-brand" id="nav-brand-link">
+                <img src="assets/images/logo.png" alt="Logo Dr. Clésio Pimenta" class="nav-logo">
+                <div class="brand-text">
+                    <span class="brand-name">Dr. Clésio Pimenta</span>
+                    <span class="brand-subtitle">Psicólogo Clínico • CRP 04/48009</span>
+                </div>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre Mim</a></li>
+                    <li><a href="#sintomas" class="nav-link">Sinais & Alerta</a></li>
+                    <li><a href="#especialidades" class="nav-link">Especialidades</a></li>
+                    <li><a href="#laudos" class="nav-link">Laudos</a></li>
+                    <li><a href="#atendimento" class="nav-link">Modalidades</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="https://wa.me/5535984434399?text=Ol%C3%A1%2C%20Dr.%20Cl%C3%A9sio!%20Gostaria%20de%20agendar%20uma%20consulta%20psicol%C3%B3gica." target="_blank" rel="noopener noreferrer" class="btn btn-primary nav-btn" id="header-cta-btn">
+                    <i class="fab fa-whatsapp"></i> Agendar Consulta
+                </a>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Abrir Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Overlay -->
+    <div class="nav-overlay" id="nav-overlay"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-bg-overlay"></div>
+            <div class="container hero-container">
+                <div class="hero-content" data-animate="fade-right">
+                    <div class="badge-pill">
+                        <span class="pulse-dot"></span> Atendimento Presencial & Online (Brasil e Exterior)
+                    </div>
+                    <h1 class="hero-title">
+                        Transforme sua Vida com <span class="text-gradient">Apoio Psicológico</span> Especializado
+                    </h1>
+                    <p class="hero-description">
+                        "Bem-vindo ao meu espaço dedicado à sua saúde emocional e bem-estar. Sou Clésio Pimenta, Psicólogo Clínico, e estou aqui para ajudar você a superar desafios, alcançar seus objetivos e viver uma vida mais equilibrada e feliz. Ofereço atendimento especializado em diversas áreas, sempre com um olhar acolhedor e humanizado."
+                    </p>
+                    
+                    <div class="hero-cta-group">
+                        <a href="https://wa.me/5535984434399?text=Ol%C3%A1%2C%20Dr.%20Cl%C3%A9sio!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg" id="hero-primary-cta">
+                            <i class="fab fa-whatsapp"></i> Agendar Consulta Agora
+                        </a>
+                        <a href="#sobre" class="btn btn-outline btn-lg" id="hero-secondary-cta">
+                            Conhecer o Psicólogo <i class="fas fa-arrow-down"></i>
+                        </a>
+                    </div>
+
+                    <!-- Trust Stats Bar -->
+                    <div class="trust-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="8">+8</span>
+                            <span class="stat-label">Anos de Experiência</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">TCC</span>
+                            <span class="stat-label">Abordagem Comprovada</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Sigilo & Ética</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-media" data-animate="fade-left">
+                    <div class="doctor-image-wrapper">
+                        <div class="doctor-image-frame">
+                            <img src="assets/images/dr-clesio.jpg" alt="Dr. Clésio Pimenta Psicólogo Clínico" class="doctor-img">
+                            <div class="doctor-badge">
+                                <div class="badge-icon"><i class="fas fa-user-md"></i></div>
+                                <div class="badge-info">
+                                    <strong>Dr. Clésio Pimenta</strong>
+                                    <span>CRP 04/48009</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="decorative-circle ring-1"></div>
+                        <div class="decorative-circle ring-2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre Mim / Missão Visão Valores -->
+        <section class="section section-about" id="sobre">
+            <div class="container">
+                <div class="grid grid-2 align-center">
+                    <div class="about-image-col" data-animate="fade-right">
+                        <div class="about-card-media">
+                            <img src="assets/images/dr-clesio.jpg" alt="Dr Clésio Pimenta Atendimento Psicológico" class="about-img">
+                            <div class="experience-card">
+                                <i class="fas fa-heartpulse exp-icon"></i>
+                                <div class="exp-text">
+                                    <strong>Cuidado Humanizado</strong>
+                                    <span>Foco na sua evolução e equilíbrio emocional</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-text-col" data-animate="fade-left">
+                        <div class="section-tag">Sobre o Profissional</div>
+                        <h2 class="section-title">Olá, muito prazer!</h2>
+                        <p class="about-paragraph">
+                            Sou <strong>Psicólogo Clínico</strong> com formação em <strong>Terapia Cognitivo-Comportamental (TCC)</strong> e mais de 8 anos de experiência ajudando pessoas a superarem obstáculos e a conquistarem uma vida melhor.
+                        </p>
+                        <p class="about-paragraph">
+                            Com uma abordagem centrada na empatia e no respeito, ofereço atendimento tanto <strong>online quanto presencial</strong>, atendendo pacientes no Brasil e ao redor do mundo. Meu compromisso é com o seu bem-estar, ajudando você a encontrar as respostas e soluções que busca.
+                        </p>
+
+                        <div class="about-cta-box">
+                            <p class="cta-box-text">Agende agora e comece sua jornada de transformação emocional.</p>
+                            <a href="https://wa.me/5535984434399?text=Ol%C3%A1%2C%20Dr.%20Cl%C3%A9sio!%20Desejo%20dar%20in%C3%ADcio%20ao%20meu%20atendimento." target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="about-cta-btn">
+                                <i class="fab fa-whatsapp"></i> Iniciar Atendimento
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Missão, Visão e Valores -->
+                <div class="mvv-grid">
+                    <div class="mvv-card" data-animate="fade-up" data-delay="100">
+                        <div class="mvv-icon-box"><i class="fas fa-bullseye"></i></div>
+                        <h3>Missão</h3>
+                        <p>Promover a saúde mental e o bem-estar, ajudando as pessoas a superar desafios e viver uma vida mais plena e equilibrada.</p>
+                    </div>
+
+                    <div class="mvv-card" data-animate="fade-up" data-delay="200">
+                        <div class="mvv-icon-box"><i class="fas fa-eye"></i></div>
+                        <h3>Visão</h3>
+                        <p>Ser referência em psicologia clínica, oferecendo apoio e orientação de excelência e qualidade a todos que precisarem.</p>
+                    </div>
+
+                    <div class="mvv-card" data-animate="fade-up" data-delay="300">
+                        <div class="mvv-icon-box"><i class="fas fa-gem"></i></div>
+                        <h3>Valores</h3>
+                        <p>Empatia, Respeito, Compaixão, Ética, Profissionalismo, Sabedoria, Humildade, Disciplina e Justiça em cada sessão.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Como saber se você precisa de um psicólogo? (Sinais) -->
+        <section class="section section-symptoms" id="sintomas">
+            <div class="container">
+                <div class="section-header text-center" data-animate="fade-up">
+                    <div class="section-tag">Identificação Emocional</div>
+                    <h2 class="section-title">Como saber se você precisa de um psicólogo?</h2>
+                    <p class="section-subtitle">Se você se identifica com um ou mais dos pontos abaixo, a psicoterapia pode te ajudar a resgatar o controle e o equilíbrio da sua vida.</p>
+                </div>
+
+                <div class="symptoms-grid">
+                    <div class="symptom-card" data-animate="fade-up" data-delay="100">
+                        <div class="symptom-icon"><i class="fas fa-brain"></i></div>
+                        <h3>Estresse & Ansiedade Constantemente</h3>
+                        <p>Você se sente frequentemente sobrecarregado, com pensamentos acelerados, tensão corporal ou apreensão constante em relação ao futuro.</p>
+                    </div>
+
+                    <div class="symptom-card" data-animate="fade-up" data-delay="200">
+                        <div class="symptom-icon"><i class="fas fa-people-arrows"></i></div>
+                        <h3>Conflitos Emocionais & Relacionais</h3>
+                        <p>Desentendimentos recorrentes e dificuldades de comunicação que estão afetando suas relações pessoais, familiares ou profissionais.</p>
+                    </div>
+
+                    <div class="symptom-card" data-animate="fade-up" data-delay="300">
+                        <div class="symptom-icon"><i class="fas fa-history"></i></div>
+                        <h3>Traumas do Passado Não Resolvidos</h3>
+                        <p>Dificuldade para superar momentos dolorosos ou experiências do passado que continuam impactando seu presente e suas decisões.</p>
+                    </div>
+
+                    <div class="symptom-card" data-animate="fade-up" data-delay="400">
+                        <div class="symptom-icon"><i class="fas fa-cloud-rain"></i></div>
+                        <h3>Tristeza & Melancolia Frequentes</h3>
+                        <p>Sensação persistente de vazio, desânimo, falta de energia para atividades cotidianas ou perda de interesse nas coisas que costumava gostar.</p>
+                    </div>
+
+                    <div class="symptom-card" data-animate="fade-up" data-delay="500">
+                        <div class="symptom-icon"><i class="fas fa-route"></i></div>
+                        <h3>Mudanças Significativas de Vida</h3>
+                        <p>Momentos de transição de carreira, término de ciclos, luto, mudanças de cidade ou novos desafios que exigem suporte emocional especializado.</p>
+                    </div>
+
+                    <div class="symptom-card" data-animate="fade-up" data-delay="600">
+                        <div class="symptom-icon"><i class="fas fa-compass"></i></div>
+                        <h3>Sensação de Estar Perdido ou Sem Esperança</h3>
+                        <p>Sensação de falta de propósito, indecisão frequente ou incerteza sobre qual caminho seguir em sua jornada pessoal.</p>
+                    </div>
+                </div>
+
+                <div class="symptoms-banner" data-animate="fade-up">
+                    <div class="banner-content">
+                        <h3>Você não precisa carregar essa carga sozinho.</h3>
+                        <p>O acompanhamento psicológico é um passo corajoso de autocuidado e fortalecimento.</p>
+                    </div>
+                    <a href="https://wa.me/5535984434399?text=Ol%C3%A1%2C%20Dr.%20Cl%C3%A9sio!%20Identifiquei-me%20com%20os%20sintomas%20do%20site%20e%20quero%20agendar%20uma%20consulta." target="_blank" rel="noopener noreferrer" class="btn btn-accent" id="symptoms-cta-btn">
+                        <i class="fab fa-whatsapp"></i> Falar com o Psicólogo
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Especialidades -->
+        <section class="section section-services" id="especialidades">
+            <div class="container">
+                <div class="section-header text-center" data-animate="fade-up">
+                    <div class="section-tag">Áreas de Atuação</div>
+                    <h2 class="section-title">Especialidades & Atendimento Clínico</h2>
+                    <p class="section-subtitle">Tratamentos personalizados fundamentados na Terapia Cognitivo-Comportamental (TCC), voltados a resultados concretos.</p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card" data-animate="fade-up" data-delay="100">
+                        <div class="service-header-icon"><i class="fas fa-weight-hanging"></i></div>
+                        <h3>Emagrecimento, Obesidade & Compulsão Alimentar</h3>
+                        <p>Acompanhamento focado nos aspectos emocionais da relação com a comida, reestruturação de crenças sobre autoimagem, controle de impulsos e mudança sustentável de hábitos comportamentais.</p>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Controle de impulsos e ansiedade alimentar</li>
+                            <li><i class="fas fa-check"></i> Tratamento da compulsão e efeito sanfona</li>
+                            <li><i class="fas fa-check"></i> Preparatório e pós-operatório bariátrico</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card" data-animate="fade-up" data-delay="200">
+                        <div class="service-header-icon"><i class="fas fa-capsules"></i></div>
+                        <h3>Dependência Química & Vícios em Geral</h3>
+                        <p>Intervenção estruturada para o tratamento de vícios em substâncias (álcool, drogas) e comportamentais (telas, jogos, pornografia, masturbação compulsiva), visando a prevenção de recaídas e reinserção saudável.</p>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Dependência de álcool e drogas</li>
+                            <li><i class="fas fa-check"></i> Compulsão por telas, pornografia e tecnologia</li>
+                            <li><i class="fas fa-check"></i> Estratégias práticas de autocontrole</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card" data-animate="fade-up" data-delay="300">
+                        <div class="service-header-icon"><i class="fas fa-cloud-sun"></i></div>
+                        <h3>Depressão, Ansiedade & Angústias</h3>
+                        <p>Manejamento de quadros ansiosos, fobias, síndrome do pânico e episódios depressivos através do mapeamento de pensamentos disfuncionais e regulação emocional.</p>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Redução da ansiedade e ataques de pânico</li>
+                            <li><i class="fas fa-check"></i> Superação da depressão e da angústia profunda</li>
+                            <li><i class="fas fa-check"></i> Ferramentas práticas para a rotina diária</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card" data-animate="fade-up" data-delay="400">
+                        <div class="service-header-icon"><i class="fas fa-trophy"></i></div>
+                        <h3>Psicologia Esportiva (Atletas de Alto Rendimento)</h3>
+                        <p>Desenvolvimento do mindset de alta performance para atletas profissionais e amadores. Foco no controle de pressão competitiva, concentração, motivação e recuperação de lesões.</p>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Controle de ansiedade pré-competitiva</li>
+                            <li><i class="fas fa-check"></i> Foco, concentração e resiliência mental</li>
+                            <li><i class="fas fa-check"></i> Suporte emocional na recuperação de lesões</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card" data-animate="fade-up" data-delay="500">
+                        <div class="service-header-icon"><i class="fas fa-heart"></i></div>
+                        <h3>Relacionamentos & Conflitos Interpessoais</h3>
+                        <p>Auxílio no desenvolvimento de habilidades sociais, assertividade comunicativa, superação de crises conjugais, términos e construção de vínculos saudáveis.</p>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Comunicação assertiva e limites saudáveis</li>
+                            <li><i class="fas fa-check"></i> Processamento de luto e términos afetivos</li>
+                            <li><i class="fas fa-check"></i> Fortalecimento do autovalor e autoestima</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card" data-animate="fade-up" data-delay="600">
+                        <div class="service-header-icon"><i class="fas fa-leaf"></i></div>
+                        <h3>Acompanhamento para Uso de Cannabis / Canabidiol</h3>
+                        <p>Suporte psicológico especializado para pacientes em tratamento com cannabis medicinal e derivados (CBD), acompanhando a evolução emocional e a adaptação do tratamento.</p>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Monitoramento do bem-estar emocional</li>
+                            <li><i class="fas fa-check"></i> Acompanhamento multidisciplinar integrativo</li>
+                            <li><i class="fas fa-check"></i> Emissão de pareceres e suporte psicológico</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Laudos Psicológicos -->
+        <section class="section section-laudos" id="laudos">
+            <div class="container">
+                <div class="laudos-wrapper">
+                    <div class="laudos-info" data-animate="fade-right">
+                        <div class="section-tag">Documentação Oficial</div>
+                        <h2 class="section-title">Emissão de Laudos Psicológicos Especializados</h2>
+                        <p>
+                            Elaboração de avaliações e laudos psicológicos criteriosos e fundamentados nas normas éticas do Conselho Federal de Psicologia (CFP), atendendo às exigências médicas, jurídicas e administrativas.
+                        </p>
+                        
+                        <div class="laudos-grid-items">
+                            <div class="laudo-item">
+                                <i class="fas fa-file-medical"></i>
+                                <div>
+                                    <strong>Cirurgia Bariátrica</strong>
+                                    <span>Avaliação psicológica para procedimento cirúrgico.</span>
+                                </div>
+                            </div>
+                            <div class="laudo-item">
+                                <i class="fas fa-user-check"></i>
+                                <div>
+                                    <strong>Perícia Médica & Aposentadoria</strong>
+                                    <span>Parecer técnico para fins periciais e previdenciários.</span>
+                                </div>
+                            </div>
+                            <div class="laudo-item">
+                                <i class="fas fa-notes-medical"></i>
+                                <div>
+                                    <strong>Vasectomia & Procedimentos Médicos</strong>
+                                    <span>Avaliação pré-operatória conforme diretrizes exigidas.</span>
+                                </div>
+                            </div>
+                            <div class="laudo-item">
+                                <i class="fas fa-cannabis"></i>
+                                <div>
+                                    <strong>Uso de Cannabis & Canabidiol (CBD)</strong>
+                                    <span>Avaliação para início e acompanhamento terapêutico.</span>
+                                </div>
+                            </div>
+                            <div class="laudo-item">
+                                <i class="fas fa-building"></i>
+                                <div>
+                                    <strong>Venda de Imóveis & Processos</strong>
+                                    <span>Atestado de aptidão e discernimento mental.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="laudos-cta">
+                            <a href="https://wa.me/5535984434399?text=Ol%C3%A1%2C%20Dr.%20Cl%C3%A9sio!%20Preciso%20de%20informa%C3%A7%C3%B5es%20sobre%20emiss%C3%A3o%20de%20laudo%20psicol%C3%B3gico." target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="laudos-cta-btn">
+                                <i class="fab fa-whatsapp"></i> Solicitar Informações de Laudo
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="laudos-highlight-box" data-animate="fade-left">
+                        <div class="stamp-badge">
+                            <i class="fas fa-stamp"></i>
+                            <span>Válido & Reconhecido</span>
+                        </div>
+                        <h3>Como funciona a avaliação para Laudo?</h3>
+                        <ol class="steps-list">
+                            <li>
+                                <span class="step-num">1</span>
+                                <div class="step-text">
+                                    <strong>Consulta Inicial & Agendamento</strong>
+                                    <p>Identificação da finalidade específica exigida pelo médico, órgão ou processo.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="step-num">2</span>
+                                <div class="step-text">
+                                    <strong>Sessões de Avaliação Técnica</strong>
+                                    <p>Aplicação de entrevistas estruturadas e instrumentos psicológicos reconhecidos pelo CFP.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="step-num">3</span>
+                                <div class="step-text">
+                                    <strong>Emissão & Entrega do Documento</strong>
+                                    <p>Elaboração minuciosa do laudo técnico com assinatura digital/presencial autenticada.</p>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modalidades de Atendimento (Online vs Presencial) -->
+        <section class="section section-modalities" id="atendimento">
+            <div class="container">
+                <div class="section-header text-center" data-animate="fade-up">
+                    <div class="section-tag">Flexibilidade & Comodidade</div>
+                    <h2 class="section-title">Modalidades de Atendimento</h2>
+                    <p class="section-subtitle">Escolha o formato que melhor se adapta à sua rotina, com a garantia do mesmo padrão de excelência e sigilo ético.</p>
+                </div>
+
+                <div class="grid grid-2 modalities-grid">
+                    <!-- Online Card -->
+                    <div class="modality-card card-featured" data-animate="fade-right">
+                        <div class="modality-badge"><i class="fas fa-globe"></i> Atendimento Global</div>
+                        <h3 class="modality-title">Atendimento Psicológico Online</h3>
+                        <p class="modality-desc">
+                            Receba suporte emocional especializado sem sair de casa, de qualquer lugar do Brasil e do mundo. Prática com reconhecimento internacional e total flexibilidade de horários.
+                        </p>
+
+                        <ul class="modality-benefits">
+                            <li><i class="fas fa-shield-halved"></i> <strong>100% Confidencial & Seguro</strong> via videochamada criptografada.</li>
+                            <li><i class="fas fa-clock"></i> <strong>Flexibilidade de Horários</strong> adaptados ao seu fuso horário.</li>
+                            <li><i class="fas fa-couch"></i> <strong>Conforto do Seu Lar</strong> sem necessidade de deslocamento no trânsito.</li>
+                            <li><i class="fas fa-user-check"></i> <strong>Atendimento a partir dos 16 anos</strong> de idade.</li>
+                        </ul>
+
+                        <div class="modality-footer">
+                            <a href="https://wa.me/5535984434399?text=Ol%C3%A1%2C%20Dr.%20Cl%C3%A9sio!%20Quero%20agendar%20uma%20consulta%20online." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block" id="online-modal-btn">
+                                <i class="fab fa-whatsapp"></i> Agendar Sessão Online
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Presencial Card -->
+                    <div class="modality-card" data-animate="fade-left">
+                        <div class="modality-badge badge-neutral"><i class="fas fa-building"></i> Presencial</div>
+                        <h3 class="modality-title">Atendimento Presencial</h3>
+                        <p class="modality-desc">
+                            Um ambiente acolhedor, discreto e estruturado para proporcionar a melhor experiência no cuidado com a sua saúde mental em São Sebastião do Paraíso - MG.
+                        </p>
+
+                        <ul class="modality-benefits">
+                            <li><i class="fas fa-map-marker-alt"></i> <strong>Localização Privilegiada</strong> no bairro Lagoinha.</li>
+                            <li><i class="fas fa-door-open"></i> <strong>Espaço Acolhedor</strong> projetado para o seu conforto emocional.</li>
+                            <li><i class="fas fa-parking"></i> <strong>Fácil Acesso & Estacionamento</strong> para sua comodidade.</li>
+                            <li><i class="fas fa-calendar-check"></i> <strong>Horário de Atendimento:</strong> Seg a Sex, das 08h às 19h.</li>
+                        </ul>
+
+                        <div class="modality-footer">
+                            <a href="https://wa.me/5535984434399?text=Ol%C3%A1%2C%20Dr.%20Cl%C3%A9sio!%20Quero%20agendar%20uma%20consulta%20presencial%20no%20consult%C3%B3rio." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-block" id="presencial-modal-btn">
+                                <i class="fab fa-whatsapp"></i> Agendar Presencial
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Galeria do Consultório -->
+                <div class="office-gallery-wrapper" data-animate="fade-up">
+                    <h3 class="gallery-title"><i class="fas fa-camera"></i> Conheça Nosso Espaço Terapêutico</h3>
+                    <div class="office-gallery-grid">
+                        <div class="gallery-item">
+                            <img src="assets/images/consultorio-interior.png" alt="Consultório Dr Clésio Pimenta Interior" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <span>Ambiente de Consulta Climatizado & Acolhedor</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="assets/images/consultorio-recepcao.png" alt="Recepção do Consultório" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <span>Recepção & Conforto para Pacientes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Perguntas Frequentes (FAQ) -->
+        <section class="section section-faq" id="faq">
+            <div class="container">
+                <div class="section-header text-center" data-animate="fade-up">
+                    <div class="section-tag">Tire suas Dúvidas</div>
+                    <h2 class="section-title">Perguntas Frequentes (FAQ)</h2>
+                    <p class="section-subtitle">Respostas claras para as principais dúvidas sobre as consultas e o processo terapêutico.</p>
+                </div>
+
+                <div class="faq-accordion-container" data-animate="fade-up">
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Quais são os serviços oferecidos pelo Dr. Clésio Pimenta?</span>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Ofereço uma ampla gama de serviços psicológicos, tanto online quanto presenciais. Isso inclui atendimento para emagrecimento, obesidade, compulsão alimentar, dependência química, vícios em geral (telas, pornografia), depressão, ansiedade, angústias, problemas de relacionamento e acompanhamento de atletas de alto rendimento. Também forneço laudos psicológicos para finalidades como cirurgia bariátrica, perícia médica, aposentadoria, vasectomia, uso de cannabis e canabidiol, e condições psicológicas para venda de imóveis.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Como funciona o atendimento psicológico online?</span>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>O atendimento psicológico online é realizado através de videoconferência individual e segura, permitindo que você receba suporte psicológico de qualquer lugar do Brasil e do mundo. O processo é 100% seguro e confidencial, com a mesma eficácia e dedicação do atendimento presencial. Agendamos as sessões conforme sua disponibilidade de horário.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>O que é necessário para iniciar a terapia online?</span>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Você precisa apenas de um dispositivo com acesso à internet (celular, tablet ou computador) e um local reservado e tranquilo onde você se sinta à vontade para conversar sem interrupções. Após o agendamento via WhatsApp, você receberá o link direto da sala virtual com antecedência.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Quais são os requisitos para obter um laudo psicológico?</span>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>É necessário agendar uma consulta presencial ou online onde discutiremos a finalidade e as exigências do laudo. Durante a avaliação, realizaremos entrevistas e testes validados. Com base nas evidências, o laudo técnico é fundamentado e assinado no prazo acordado.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Qual é a diferença entre o atendimento para dependência química e para vícios em geral?</span>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>O atendimento para dependência química foca em tratar a dependência de substâncias específicas (como álcool e drogas), abordando os fatores emocionais, familiares e comportamentais. Já o atendimento para vícios em geral aborda comportamentos compulsivos como telas, pornografia, jogos e compras. Ambos utilizam a Terapia Cognitivo-Comportamental para reestruturação hábitos.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Quais são os benefícios da psicologia esportiva para atletas?</span>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>O acompanhamento psicológico para atletas visa otimizar o rendimento esportivo através do controle do estresse, foco, manejo de pressão, aumento da resiliência mental e suporte emocional durante reabilitações de lesões.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Existe uma faixa etária mínima para atendimento?</span>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Ofereço atendimento psicológico a pessoas a partir dos 16 anos de idade. A intervenção é adaptada individualmente para atender às demandas da juventude e da vida adulta.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato / Localização -->
+        <section class="section section-contact" id="contato">
+            <div class="container">
+                <div class="grid grid-2">
+                    <!-- Informações de Contato -->
+                    <div class="contact-info-col" data-animate="fade-right">
+                        <div class="section-tag">Agendamento & Dúvidas</div>
+                        <h2 class="section-title">Entre em Contato</h2>
+                        <p class="contact-lead">
+                            Estou à disposição para esclarecer suas dúvidas e agendar sua primeira consulta. Dê o primeiro passo para o seu bem-estar emocional hoje mesmo.
+                        </p>
+
+                        <div class="contact-cards-list">
+                            <div class="contact-card">
+                                <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                                <div class="contact-details">
+                                    <strong>Telefone & WhatsApp</strong>
+                                    <a href="https://wa.me/5535984434399?text=Ol%C3%A1%2C%20Dr.%20Cl%C3%A9sio!%20Gostaria%20de%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer">(35) 98443-4399</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div class="contact-details">
+                                    <strong>Endereço do Consultório</strong>
+                                    <p>Rua Manoel Palma, R. Antônio Gomes Viêira, 20 - Lagoinha<br>São Sebastião do Paraíso - MG, 37950-000</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                                <div class="contact-details">
+                                    <strong>Horário de Atendimento</strong>
+                                    <p>Segunda a Sexta-feira: 08:00 às 19:00</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-direct-cta">
+                            <a href="https://wa.me/5535984434399?text=Ol%C3%A1%2C%20Dr.%20Cl%C3%A9sio!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg btn-block" id="contact-direct-btn">
+                                <i class="fab fa-whatsapp"></i> Iniciar Conversa no WhatsApp
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Mapa Embed -->
+                    <div class="contact-map-col" data-animate="fade-left">
+                        <div class="map-wrapper">
+                            <iframe 
+                                title="Mapa do Consultório Dr Clésio Pimenta"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.8436665796245!2d-46.9930811!3d-20.7165039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b7b539c3e98031%3A0x6b6c4b26090c29f4!2sR.%20Ant%C3%B4nio%20Gomes%20Vi%C3%AAira%2C%2020%20-%20Lagoinha%2C%20S%C3%A3o%20Sebasti%C3%A3o%20do%20Para%C3%ADso%20-%20MG%2C%2037950-000!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" 
+                                width="100%" 
+                                height="450" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <img src="assets/images/logo.png" alt="Dr. Clésio Pimenta Logo" class="footer-logo">
+                    <div>
+                        <span class="footer-title">Dr. Clésio Pimenta</span>
+                        <p class="footer-tagline">Psicólogo Clínico • CRP 04/48009</p>
+                    </div>
+                </div>
+                
+                <div class="footer-nav">
+                    <a href="#hero">Início</a>
+                    <a href="#sobre">Sobre Mim</a>
+                    <a href="#especialidades">Especialidades</a>
+                    <a href="#laudos">Laudos</a>
+                    <a href="#atendimento">Modalidades</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#contato">Contato</a>
+                </div>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Dr. Clésio Pimenta. Todos os direitos reservados. CRP 04/48009.</p>
+                <p class="footer-credits">Desenvolvido com excelência técnica e design ético.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Widget -->
+    <div class="whatsapp-float-widget" id="whatsapp-widget">
+        <div class="whatsapp-chat-popup" id="whatsapp-popup">
+            <div class="popup-header">
+                <div class="popup-avatar">
+                    <img src="assets/images/dr-clesio.jpg" alt="Dr Clésio Pimenta">
+                    <span class="online-indicator"></span>
+                </div>
+                <div class="popup-title">
+                    <strong>Dr. Clésio Pimenta</strong>
+                    <span>Psicólogo Clínico (CRP 04/48009)</span>
+                </div>
+                <button class="popup-close" id="popup-close">&times;</button>
+            </div>
+            <div class="popup-body">
+                <div class="chat-message">
+                    <p>Olá! Seja muito bem-vindo(a). Como posso ajudar você em sua jornada de saúde emocional hoje?</p>
+                    <span class="message-time">Agora</span>
+                </div>
+            </div>
+            <div class="popup-footer">
+                <a href="https://wa.me/5535984434399?text=Ol%C3%A1%2C%20Dr.%20Cl%C3%A9sio!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-popup">
+                    <i class="fab fa-whatsapp"></i> Iniciar Conversa no WhatsApp
+                </a>
+            </div>
+        </div>
+        <button class="whatsapp-float-btn" id="whatsapp-float-btn" aria-label="Falar no WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+            <span class="notification-badge">1</span>
+        </button>
+    </div>
+
+    <!-- Script JS -->
+    <script src="script.js"></script>
+</body>
+</html>

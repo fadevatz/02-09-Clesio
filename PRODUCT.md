@@ -16,7 +16,7 @@ Pessoas a partir de 16 anos buscando suporte emocional e tratamento psicológico
 
 ## Product Purpose
 
-Landing page institucional e comercial de alta conversão para o Psicólogo Clínico Dr. Clésio Pimenta (CRP 04/48009), visando apresentar suas especialidades, modalidades de atendimento (presencial e online) e facilitar o agendamento direto via WhatsApp.
+Landing page institucional e comercial de alta conversão para o Psicólogo Clínico Dr. Clésio Batista (CRP 04/48009), visando apresentar suas especialidades, modalidades de atendimento (presencial e online) e facilitar o agendamento direto via WhatsApp.
 
 ## Positioning
 
@@ -36,19 +36,18 @@ Ponto de entrada digital para potenciais pacientes e parceiros médicos/jurídic
 
 ## Brand Commitments
 
-- **Nome Profissional**: Dr. Clésio Pimenta (Psicólogo Clínico - CRP 04/48009)
-- **Paleta de Cores**:
-  - Dark background: `#101112`
-  - Forest Green (Primary): `#163A2F`
-  - Jade Green (Primary Light): `#3F7F6A`
-  - Sage Green (Accent): `#86B8A4`
-  - Off-White (Text & Light Theme): `#F1F4F2`
-- **Logo**: Símbolo geométrico em asas/diamante.
+- **Nome Profissional**: Dr. Clésio Batista (Psicólogo Clínico - CRP 04/48009)
+- **Especialidades**: Terapia Cognitivo-Comportamental (TCC), Emagrecimento, Obesidade & Compulsão Alimentar, Dependência Química & Vícios em geral (Telas, Pornografia), Depressão, Ansiedade & Angústias, Psicologia Esportiva (Atletas de Alto Rendimento), Relacionamentos & Conflitos Interpessoais, Acompanhamento para Uso de Cannabis / Canabidiol.
+- **Laudos Psicológicos Especializados**: Cirurgia Bariátrica, Perícia Médica & Aposentadoria, Vasectomia & Procedimentos Médicos, Uso de Cannabis & CBD, Venda de Imóveis & Processos Administrativos/Judiciais.
+- **Modalidades**: Presencial (São Sebastião do Paraíso - MG) e Online (Brasil e Exterior).
+- **Público-Alvo**: Jovens e Adultos (a partir dos 16 anos).
+- **Contato Principal**: WhatsApp `(35) 98443-4399`.
 
-## Evidence on Hand
+---
 
-- Fotografia oficial do Dr. Clésio Pimenta (`assets/images/dr-clesio.jpg`).
-- Logotipo oficial vetorizado (`assets/images/logo.png`).
+## 🎨 3. Recursos de Mídia Recomendados
+- Logo oficial do consultório (`assets/images/logo.png`).
+- Fotografia oficial do Dr. Clésio Batista (`assets/images/dr-clesio.jpg`).
 - Fotografias ambientadas do consultório (`assets/images/consultorio-interior.png` e `assets/images/consultorio-recepcao.png`).
 - Contato oficial: Telefone/WhatsApp `(35) 98443-4399`, Endereço `Rua Manoel Palma / R. Antônio Gomes Viêira, 20 - Lagoinha, São Sebastião do Paraíso - MG`.
 

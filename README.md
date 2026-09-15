@@ -1,6 +1,6 @@
-# Landing Page - Dr. Clésio Pimenta (Psicólogo Clínico - CRP 04/48009)
+# Landing Page - Dr. Clésio Batista (Psicólogo Clínico - CRP 04/48009)
 
-Landing Page moderna, responsiva e performática desenvolvida para o psicólogo **Dr. Clésio Pimenta**.
+Landing Page moderna, responsiva e performática desenvolvida para o psicólogo **Dr. Clésio Batista**.
 
 ## 🎨 Paleta de Cores Utilizada
 - **Fundo Escuro (Obsidian)**: `#101112`
@@ -19,12 +19,12 @@ Landing Page moderna, responsiva e performática desenvolvida para o psicólogo 
 
 ### 1. Build da Imagem
 ```bash
-docker build -t clesio-pimenta-landing .
+docker build -t clesio-batista-landing .
 ```
 
 ### 2. Rodando o Container
 ```bash
-docker run -d -p 8080:80 --name clesio-landing clesio-pimenta-landing
+docker run -d -p 8080:80 --name clesio-landing clesio-batista-landing
 ```
 Acesse o site em: `http://localhost:8080`
 

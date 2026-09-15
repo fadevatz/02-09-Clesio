@@ -1,5 +1,5 @@
 /**
- * Dr. Clésio Pimenta - Landing Page JavaScript
+ * Dr. Clésio Batista - Landing Page JavaScript
  * Handles navigation, animations, FAQ accordions, and WhatsApp floating widget
  */
 

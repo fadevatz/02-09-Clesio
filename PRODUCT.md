@@ -7,52 +7,44 @@
 web
 
 ## Stack
-
-static HTML5 / CSS3 / Vanilla JavaScript ES6+ / Docker (Nginx Alpine)
+static HTML5 / CSS3 moderno / Vanilla JavaScript
 
 ## Users
-
-Pessoas a partir de 16 anos buscando suporte emocional e tratamento psicológico especializado no Brasil e no exterior (pacientes com ansiedade, depressão, compulsão alimentar, dependência química, vícios em geral, atletas de alto rendimento e solicitações de laudos psicológicos).
+1. **Pessoas físicas (Individual & Casal):** Adultos e adolescentes em busca de suporte emocional para ansiedade, depressão, estresse, luto, transições de vida e alinhamento conjugal.
+2. **Atletas & Competidores (Performance & eSports):** Atletas e pro players buscando regulação emocional, resiliência mental e consistência competitiva sob pressão.
+3. **Empresas & Recursos Humanos (B2B):** Gestores e organizações que necessitam de conformidade legal com a gestão de riscos psicossociais (NR-01/PGR), Programa de Apoio ao Colaborador (EAP) e palestras corporativas.
+4. **Advocacia & Judiciário (Perícias):** Bancas de advocacia e clientes em litígio demandando laudos formais, pareceres técnicos e assistência jurídica em processos de família e cíveis.
 
 ## Product Purpose
-
-Landing page institucional e comercial de alta conversão para o Psicólogo Clínico Dr. Clésio Batista (CRP 04/48009), visando apresentar suas especialidades, modalidades de atendimento (presencial e online) e facilitar o agendamento direto via WhatsApp.
+Apresentar a autoridade clínica, a abordagem humanizada e a abrangência técnica do psicólogo Clésio Batista, convertendo visitantes em agendamentos diretos e consultas comerciais através de um fluxo imediato via WhatsApp.
 
 ## Positioning
-
-Atendimento focado na Terapia Cognitivo-Comportamental (TCC) com mais de 8 anos de experiência prática, unindo acolhimento humanizado, suporte internacional sem fronteiras e rigor técnico na emissão de laudos oficiais (cirurgia bariátrica, vasectomia, perícia médica, uso de cannabis/CBD e aptidão civil).
+Atendimento psicológico de alto padrão ético fundamentado na Terapia Cognitivo-Comportamental (TCC) e práticas baseadas em evidências, integrando acolhimento humano individual, suporte familiar, preparação para alta performance e soluções corporativas B2B. Atuação presencial em São Sebastião do Paraíso – MG e atendimento online em todo o Brasil e exterior.
 
 ## Operating Context
-
-Ponto de entrada digital para potenciais pacientes e parceiros médicos/jurídicos. O usuário navega pela landing page para conhecer a atuação do psicólogo, entender os sintomas tratados, verificar os modelos de consulta (presencial em São Sebastião do Paraíso - MG ou online) e iniciar contato imediato pelo botão de WhatsApp.
+O site é a porta de entrada institucional para tráfego pago, tráfego orgânico, encaminhamentos médicos e redes sociais. O usuário precisa compreender rapidamente as especialidades e encontrar a solução exata para a sua fase de vida ou necessidade corporativa, com chamada de ação transparente e ágil para o WhatsApp comercial.
 
 ## Capabilities and Constraints
-
-- Design responsivo para dispositivos móveis, tablets e desktops.
-- Ritmo de fundos alternados entre tons escuros (obsidian/moss) e claros (off-white/mint) garantindo contraste nítido.
-- Acordeão interativo de Perguntas Frequentes (FAQ).
-- Widget flutuante de bate-papo interativo via WhatsApp.
-- Containerização oficial com Dockerfile e Nginx Alpine.
+- **Arquitetura Estática:** Carregamento ultra veloz, livre de dependências pesadas, 100% responsivo (mobile-first).
+- **Catálogo Interativo:** Modal dedicado para detalhar individualmente cada um dos 12 serviços clínicos e corporativos.
+- **Roteamento WhatsApp Contextualizado:** Cada botão direciona para uma mensagem pré-formatada específica para o serviço de interesse.
+- **Conformidade Ética:** Atendimento rigoroso às normas do Conselho Federal de Psicologia (CFP).
+- **Registro Profissional Oficial:** CRP: 04/48009.
 
 ## Brand Commitments
+- **Nome Oficial:** Clésio Batista | Psicologia & Desenvolvimento.
+- **Registro Profissional:** CRP: 04/48009.
+- **Localização:** Rua Manoel Palma, R. Antônio Gomes Viêira, 20 - Lagoinha, São Sebastião do Paraíso – MG • 37950-000 | Atendimento Presencial e Online (Brasil e Exterior).
+- **Contato Principal:** WhatsApp (35) 98443-4399 | E-mail: contato@clesiobatista.com.br.
+- **Identidade Visual:** Padrão Editorial JRMK sofisticado, combinando linho acolhedor (`#FAF7F2`), terracota nobre (`#6D3224`), verde floresta profundo (`#102620`) e dourado suave (`#B88E53`).
 
-- **Nome Profissional**: Dr. Clésio Batista (Psicólogo Clínico - CRP 04/48009)
-- **Especialidades**: Terapia Cognitivo-Comportamental (TCC), Emagrecimento, Obesidade & Compulsão Alimentar, Dependência Química & Vícios em geral (Telas, Pornografia), Depressão, Ansiedade & Angústias, Psicologia Esportiva (Atletas de Alto Rendimento), Relacionamentos & Conflitos Interpessoais, Acompanhamento para Uso de Cannabis / Canabidiol.
-- **Laudos Psicológicos Especializados**: Cirurgia Bariátrica, Perícia Médica & Aposentadoria, Vasectomia & Procedimentos Médicos, Uso de Cannabis & CBD, Venda de Imóveis & Processos Administrativos/Judiciais.
-- **Modalidades**: Presencial (São Sebastião do Paraíso - MG) e Online (Brasil e Exterior).
-- **Público-Alvo**: Jovens e Adultos (a partir dos 16 anos).
-- **Contato Principal**: WhatsApp `(35) 98443-4399`.
-
----
-
-## 🎨 3. Recursos de Mídia Recomendados
-- Logo oficial do consultório (`assets/images/logo.png`).
-- Fotografia oficial do Dr. Clésio Batista (`assets/images/dr-clesio.jpg`).
-- Fotografias ambientadas do consultório (`assets/images/consultorio-interior.png` e `assets/images/consultorio-recepcao.png`).
-- Contato oficial: Telefone/WhatsApp `(35) 98443-4399`, Endereço `Rua Manoel Palma / R. Antônio Gomes Viêira, 20 - Lagoinha, São Sebastião do Paraíso - MG`.
+## Evidence on Hand
+- **Foto Oficial de Capa:** Dr. Clésio Batista em ambiente de consultório (`assets/images/hero-banner-novo.jpg` e `assets/images/dr-clesio-perfil.jpg`).
+- **Logomarca & Símbolo:** Marca oficial com símbolo do psi/folha e tipografia serifada registrada (`assets/images/logo-horizontal-nav.png`, `assets/images/simbolo-clesio.png`).
+- **Prova Social Real:** Depoimentos de pacientes em carrossel dinâmico interativo.
 
 ## Product Principles
-
-1. **Acolhimento & Sigilo Ético**: Transmitir serenidade, segurança e profissionalismo absoluto.
-2. **Clareza & Transparência**: Explicar de forma didática o funcionamento da psicoterapia TCC, dos atendimentos e dos laudos.
-3. **Conversão Sem Fricção**: Disponibilizar chamadas para ação (CTA) claras e acessíveis para início imediato do atendimento no WhatsApp.
+1. **Acolhimento sem Ruído:** O design e a redação transmitem calma, escuta ativa e acolhimento desde o primeiro segundo.
+2. **Conversão Ética e Transparente:** Facilitar o contato com clareza nos caminhos de agendamento, sem apelos sensacionalistas.
+3. **Clareza de Especialidades:** Os 6 módulos estruturam com precisão todas as fases de vida do paciente e as necessidades de empresas.
+4. **Desempenho Sem Fricção:** Carregamento instantâneo, botões amplos para toque móvel e navegação acessível.

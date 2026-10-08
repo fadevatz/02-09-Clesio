@@ -1,7 +1,11 @@
 .git
 .gitignore
-README.md
-temp_images
-extract.py
-download_imgs.py
-*.log
+.impeccable
+.gemini
+*.md
+generate_topic_pages.js
+check_css.js
+Dockerfile
+docker-compose.yml
+.dockerignore
+

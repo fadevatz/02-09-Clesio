@@ -1,5 +1,14 @@
-temp_images/
-extract.py
-download_imgs.py
-*.log
+# Sistema operacional
 .DS_Store
+Thumbs.db
+
+# Diretórios de auditoria e IDEs
+.impeccable/
+.idea/
+.vscode/
+*.log
+
+# Node & dependências temporárias
+node_modules/
+package-lock.json
+

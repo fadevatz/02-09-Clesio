@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ansiedade | Dr. Clésio Batista • Psicologia & Desenvolvimento</title>
+  <meta name="description" content="Quando a preocupação toma conta do corpo e do pensamento, a vida fica pequena. A terapia devolve espaço para respirar com segurança e clareza.">
+  <meta name="author" content="Clésio Batista">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ansiedade | Dr. Clésio Batista • CRP 04/48009">
+  <meta property="og:description" content="Quando a preocupação toma conta do corpo e do pensamento, a vida fica pequena. A terapia devolve espaço para respirar com segurança e clareza.">
+  <meta property="og:image" content="assets/images/dr-clesio-azul.png?v=20261008">
+
+  <!-- Favicon Oficial -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="assets/images/simbolo-clesio.png">
+
+  <!-- Fontes Google (Playfair Display & DM Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Ícones Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- Folhas de Estilos com Cache Busting -->
+  <link rel="stylesheet" href="styles.css?v=20261008_01">
+  <link rel="stylesheet" href="topic.css?v=20261008_01">
+
+  <!-- Estilo Crítico Estrutural (Garante renderização imediata sem dependência de cache de navegador) -->
+  <style>
+    .breadcrumb-list { display: flex !important; list-style: none !important; padding: 0 !important; margin: 0 !important; gap: 0.65rem; }
+    .breadcrumb-list li { display: inline-flex !important; list-style: none !important; }
+    .topic-hero-grid { display: grid !important; grid-template-columns: 1.25fr 0.75fr !important; gap: 3.5rem !important; align-items: center !important; }
+    .topic-hero-image-wrap { max-width: 400px !important; border-radius: 28px !important; overflow: hidden !important; }
+    .topic-hero-image-wrap img, .topic-hero-img { width: 100% !important; max-width: 400px !important; height: 440px !important; object-fit: cover !important; object-position: center top !important; border-radius: 28px !important; display: block !important; }
+    .topic-main-grid { display: grid !important; grid-template-columns: 1.35fr 0.85fr !important; gap: 3.5rem !important; align-items: start !important; }
+    .services-clean-grid { display: grid !important; grid-template-columns: repeat(3, 1fr) !important; gap: 1.75rem !important; }
+    .topic-banner-pill-card { display: flex !important; align-items: center !important; justify-content: space-between !important; border-radius: 28px !important; }
+    .topic-contact-grid { display: grid !important; grid-template-columns: 1.15fr 0.95fr !important; gap: 3.5rem !important; }
+    .topic-footer-grid { display: grid !important; grid-template-columns: 1.4fr 1.1fr 1fr !important; gap: 3.5rem !important; }
+    ul.topic-checklist, ul.topic-contact-items-list, ul.topic-footer-links-list { list-style: none !important; padding: 0 !important; }
+    @media (max-width: 992px) {
+      .topic-hero-grid, .topic-main-grid, .topic-contact-grid, .topic-footer-grid { grid-template-columns: 1fr !important; }
+      .services-clean-grid { grid-template-columns: repeat(2, 1fr) !important; }
+      .topic-hero-image-wrap img, .topic-hero-img { height: 360px !important; }
+      .topic-banner-pill-card { flex-direction: column !important; }
+    }
+    @media (max-width: 640px) {
+      .services-clean-grid { grid-template-columns: 1fr !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER & NAVBAR FIXA (MOCKUP)
+       ========================================================================== -->
+  <header class="header-navbar">
+    <div class="container nav-wrapper">
+      <a href="index.html#inicio" class="brand-identity" aria-label="Página Inicial - Clésio Batista">
+        <img src="assets/images/logo-horizontal-nav.png?v=20261008" alt="Clésio Batista - Psicologia & Desenvolvimento • CRP 04/48009" class="nav-brand-logo">
+      </a>
+
+      <!-- Menu Desktop -->
+      <nav>
+        <ul class="nav-menu-links" id="navMenu">
+          <li><a href="index.html#inicio" class="nav-item-link">Início</a></li>
+          <li><a href="index.html#sobre" class="nav-item-link">Sobre</a></li>
+          <li><a href="index.html#servicos" class="nav-item-link active">Tratamentos</a></li>
+          <li><a href="index.html#depoimentos" class="nav-item-link">Depoimentos</a></li>
+          <li><a href="#contato" class="nav-item-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- Botão CTA Header -->
+      <div class="nav-action-cta">
+        <a href="https://wa.me/5535984434399?text=Ol%C3%A1%2C%20Dr.%20Cl%C3%A9sio!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20e%20agendamento%20sobre%20o%20atendimento%20para%20Ansiedade." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+          <i class="fa-brands fa-whatsapp"></i> Agendar Consulta
+        </a>
+      </div>
+
+      <!-- Toggle Mobile -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="navMenu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         BREADCRUMB
+         ========================================================================== -->
+    <nav class="breadcrumb-container" aria-label="Navegação estrutural">
+      <div class="container">
+        <ul class="breadcrumb-list">
+          <li><a href="index.html">Início</a></li>
+          <li class="separator"><i class="fa-solid fa-chevron-right"></i></li>
+          <li><a href="index.html#servicos">Tratamentos</a></li>
+          <li class="separator"><i class="fa-solid fa-chevron-right"></i></li>
+          <li class="current">Ansiedade</li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ==========================================================================
+         TOPIC HERO SECTION (MOCKUP: TAG + H1 + DESC + 2 BOTÕES + FOTO DO PROFISSIONAL)
+         ========================================================================== -->
+    <section class="topic-hero-section">
+      <div class="container topic-hero-grid">
+        <div class="topic-hero-content">
+          <span class="topic-pill-badge">ANSIEDADE & PÂNICO</span>
+          <h1 class="topic-hero-title">Psicólogo para Ansiedade: desacelere a mente e retome o controle</h1>
+          <p class="topic-hero-desc">Quando a preocupação toma conta do corpo e do pensamento, a vida fica pequena. A terapia devolve espaço para respirar com segurança e clareza.</p>
+          
+          <div class="topic-hero-ctas">
+            <a href="https://wa.me/5535984434399?text=Ol%C3%A1%2C%20Dr.%20Cl%C3%A9sio!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20e%20agendamento%20sobre%20o%20atendimento%20para%20Ansiedade." target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <i class="fa-brands fa-whatsapp"></i> Agendar Consulta
+            </a>
+            <a href="#contato" class="btn btn-outline">
+              Ver formas de contato
+            </a>
+          </div>
+        </div>
+
+        <div class="topic-hero-image-wrap">
+          <img src="assets/images/dr-clesio-azul.png?v=20261008" alt="Dr. Clésio Batista Psicólogo" class="topic-hero-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TOPIC MAIN CONTENT & CARD SINAIS FREQUENTES
+         ========================================================================== -->
+    <section class="topic-main-section">
+      <div class="container topic-main-grid">
+        
+        <!-- PROSE CONTENT (ESQUERDA) -->
+        <div class="topic-prose-content">
+          <p>A ansiedade é uma resposta natural do organismo diante de ameaças, mas quando se torna constante, intensa e desproporcional às situações reais, ela passa a limitar a sua liberdade, o seu sono e a sua qualidade de vida.</p>
+<p>Sintomas como pensamentos acelerados, sensação contínua de alerta, aperto no peito e medo incapacitante de perder o controle são sinais claros de que o sistema nervoso necessita de acolhimento e regulação técnica.</p>
+<p>No atendimento com o Dr. Clésio Batista, fundamentado na Terapia Cognitivo-Comportamental (TCC) e em técnicas de regulação emocional, você aprende a identificar gatilhos, desarmar distorções cognitivas e desenvolver ferramentas práticas para retomar a serenidade no dia a dia.</p>
+        </div>
+
+        <!-- SIDEBAR CARD (DIREITA: SINAIS FREQUENTES) -->
+        <aside class="topic-sidebar-card">
+          <h3 class="topic-sidebar-title">Sinais frequentes</h3>
+          <ul class="topic-checklist">
+
+              <li><i class="fa-solid fa-check"></i> <span>Preocupação excessiva e pensamentos acelerados</span></li>
+  
+
+              <li><i class="fa-solid fa-check"></i> <span>Sensação de aperto no peito, taquicardia ou falta de ar</span></li>
+  
+
+              <li><i class="fa-solid fa-check"></i> <span>Tensão muscular e inquietação física constante</span></li>
+  
+
+              <li><i class="fa-solid fa-check"></i> <span>Dificuldade para dormir, insônia ou sono agitado</span></li>
+  
+
+              <li><i class="fa-solid fa-check"></i> <span>Medo constante de crises de pânico ou perda de controle</span></li>
+  
+          </ul>
+
+          <div class="topic-location-note">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Atendimento particular, presencial em <strong>São Sebastião do Paraíso/MG</strong> e online, para você ou quem precisar.</span>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         EXPLORE OUTROS TEMAS DA CLÍNICA (MOCKUP)
+         ========================================================================== -->
+    <section class="servicos-section">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="eyebrow">OUTROS ATENDIMENTOS</span>
+          <h2 class="section-main-title">Explore outros temas da clínica</h2>
+        </div>
+
+        <div class="services-clean-grid">
+
+          <!-- Card: Depressão -->
+          <a href="depressao.html" class="topic-card-item">
+            <div>
+              <div class="topic-card-icon-circle">
+                <i class="fa-solid fa-cloud-showers-heavy"></i>
+              </div>
+              <h3 class="topic-card-title">Depressão</h3>
+              <p class="topic-card-desc">A depressão não é falta de vontade ou fraqueza. É um sofrimento legítimo que merece cuidado, tempo e escuta qualificada.</p>
+            </div>
+            <span class="topic-card-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+  
+
+          <!-- Card: Burnout -->
+          <a href="burnout.html" class="topic-card-item">
+            <div>
+              <div class="topic-card-icon-circle">
+                <i class="fa-solid fa-battery-quarter"></i>
+              </div>
+              <h3 class="topic-card-title">Burnout</h3>
+              <p class="topic-card-desc">Quando o trabalho consome a energia de viver, o corpo avisa antes da mente aceitar. A terapia te ajuda a impor limites e recuperar a saúde.</p>
+            </div>
+            <span class="topic-card-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+  
+
+          <!-- Card: Luto -->
+          <a href="luto.html" class="topic-card-item">
+            <div>
+              <div class="topic-card-icon-circle">
+                <i class="fa-solid fa-heart-crack"></i>
+              </div>
+              <h3 class="topic-card-title">Luto</h3>
+              <p class="topic-card-desc">O luto não precisa ser vivido sozinho, nem no tempo que os outros esperam.</p>
+            </div>
+            <span class="topic-card-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+  
+
+          <!-- Card: Autoconhecimento -->
+          <a href="autoconhecimento.html" class="topic-card-item">
+            <div>
+              <div class="topic-card-icon-circle">
+                <i class="fa-solid fa-compass"></i>
+              </div>
+              <h3 class="topic-card-title">Autoconhecimento</h3>
+              <p class="topic-card-desc">Você não precisa estar em crise para cuidar de si. O autoconhecimento é uma escolha de vida e desenvolvimento pessoal.</p>
+            </div>
+            <span class="topic-card-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+  
+
+          <!-- Card: Autoestima -->
+          <a href="autoestima.html" class="topic-card-item">
+            <div>
+              <div class="topic-card-icon-circle">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+              </div>
+              <h3 class="topic-card-title">Autoestima</h3>
+              <p class="topic-card-desc">A autoestima não é vaidade — é a forma como você se reconhece, se respeita e se escolhe todos os dias.</p>
+            </div>
+            <span class="topic-card-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+  
+
+          <!-- Card: Equilíbrio emocional feminino -->
+          <a href="equilibrio-feminino.html" class="topic-card-item">
+            <div>
+              <div class="topic-card-icon-circle">
+                <i class="fa-solid fa-spa"></i>
+              </div>
+              <h3 class="topic-card-title">Equilíbrio emocional feminino</h3>
+              <p class="topic-card-desc">Cada fase da vida de uma mulher pede uma nova forma de se habitar — da gestação ao climatério, da carreira à maternidade.</p>
+            </div>
+            <span class="topic-card-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+  
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         BANNER DE CONVERSÃO EM PÍLULA (MOCKUP: O PRIMEIRO PASSO PODE SER HOJE)
+         ========================================================================== -->
+    <section class="topic-banner-section" style="padding: 2rem 0 4.5rem;">
+      <div class="container">
+        <div class="topic-banner-pill-card">
+          <div class="topic-banner-pill-text">
+            <h2 class="topic-banner-pill-title">O primeiro passo pode ser hoje</h2>
+            <p class="topic-banner-pill-desc">
+              Agende sua sessão de psicoterapia humanizada — presencial em São Sebastião do Paraíso/MG ou online, onde você estiver.
+            </p>
+          </div>
+          <div class="topic-banner-pill-actions">
+            <a href="https://wa.me/5535984434399?text=Ol%C3%A1%2C%20Dr.%20Cl%C3%A9sio!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20e%20agendamento%20sobre%20o%20atendimento%20para%20Ansiedade." target="_blank" rel="noopener noreferrer" class="btn-banner-gold">
+              <i class="fa-brands fa-whatsapp"></i> Agendar Consulta
+            </a>
+            <a href="tel:+5535984434399" class="btn-banner-outline">
+              <i class="fa-solid fa-phone"></i> Ligue agora
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FAQ ACCORDION (MOCKUP: PERGUNTAS QUE COSTUMO RECEBER)
+         ========================================================================== -->
+    <section class="faq-section">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="eyebrow">DÚVIDAS FREQUENTES</span>
+          <h2 class="section-main-title">Perguntas que costumo receber</h2>
+        </div>
+
+        <div class="faq-accordion-container">
+          <div class="faq-item active">
+            <button class="faq-button" type="button">
+              <span>Como funciona a primeira consulta?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>A primeira conversa é um encontro de acolhimento. Conversamos sobre o que te trouxe à terapia, sua história e suas expectativas. A partir daí, construímos juntos o caminho terapêutico, sem pressa e sem julgamentos.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-button" type="button">
+              <span>Quanto tempo dura uma sessão?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>As sessões individuais de psicoterapia têm duração média de 50 minutos, com frequência semanal ou quinzenal, conforme a avaliação clínica e necessidade de cada pessoa.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-button" type="button">
+              <span>O atendimento pode ser online?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Sim! O atendimento online tem a mesma eficácia comprovada do presencial, autorizado pelo CFP, com total sigilo e comodidade para você realizar de onde estiver.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-button" type="button">
+              <span>A psicoterapia é indicada para casos simples?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Sim. Você não precisa esperar uma crise profunda para buscar ajuda. A terapia é um espaço de prevenção, autoconhecimento e alívio para qualquer sofrimento ou momento de transição emocional.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-button" type="button">
+              <span>Como faço para agendar?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Você pode clicar nos botões de WhatsApp desta página ou preencher o formulário abaixo. Retornarei o contato para combinarmos o melhor dia e horário para você.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SEÇÃO DE CONTATO COMPLETA (MOCKUP: VAMOS CONVERSAR SOBRE O SEU MOMENTO)
+         ========================================================================== -->
+    <section class="topic-contact-section" id="contato">
+      <div class="container">
+        <div class="topic-contact-header">
+          <span class="eyebrow">CONTATO</span>
+          <h2 class="section-main-title">Vamos conversar sobre o seu momento</h2>
+          <p class="section-subtitle">
+            Atendimento particular presencial em São Sebastião do Paraíso/MG e online para todo o Brasil. Envie uma mensagem e retorno pessoalmente.
+          </p>
+        </div>
+
+        <div class="topic-contact-grid">
+          <!-- Coluna 1: Informações de Contato + Card do Mapa -->
+          <div class="topic-contact-info-col">
+            <ul class="topic-contact-items-list">
+              <li class="topic-contact-item-row">
+                <div class="topic-contact-icon-box">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div>
+                  <strong>WhatsApp:</strong> <a href="https://wa.me/5535984434399" target="_blank" rel="noopener noreferrer">(35) 98443-4399</a>
+                </div>
+              </li>
+              <li class="topic-contact-item-row">
+                <div class="topic-contact-icon-box">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                  <strong>Telefone:</strong> <a href="tel:+5535984434399">(35) 98443-4399</a>
+                </div>
+              </li>
+              <li class="topic-contact-item-row">
+                <div class="topic-contact-icon-box">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                  <strong>E-mail:</strong> <a href="mailto:contato@clesiobatista.com.br">contato@clesiobatista.com.br</a>
+                </div>
+              </li>
+              <li class="topic-contact-item-row">
+                <div class="topic-contact-icon-box">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div>
+                  <strong>Instagram:</strong> <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">@clesiobatista</a>
+                </div>
+              </li>
+              <li class="topic-contact-item-row">
+                <div class="topic-contact-icon-box">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                  <strong>Atendimento:</strong> Rua Manoel Palma, R. Antônio Gomes Viêira, 20 - Lagoinha, São Sebastião do Paraíso – MG • Presencial e Online
+                </div>
+              </li>
+            </ul>
+
+            <!-- Prévia do Mapa -->
+            <div class="topic-map-preview-card">
+              <div class="topic-map-image-frame">
+                <iframe src="https://maps.google.com/maps?q=Rua%20Manoel%20Palma%2C%2020%2C%20Lagoinha%2C%20S%C3%A3o%20Sebasti%C3%A3o%20do%20Para%C3%ADso%20-%20MG&t=&z=16&ie=UTF8&iwloc=&output=embed" title="Localização São Sebastião do Paraíso - MG" loading="lazy"></iframe>
+              </div>
+              <a href="https://www.google.com/maps/place/Psic%C3%B3logo+Cl%C3%A9sio+Pimenta/@-20.9197504,-46.9834424,17z/data=!3m1!4b1!4m6!3m5!1s0x94b7179c0cd8a1a7:0x1cf9488d000985c5!8m2!3d-20.9197504!4d-46.9834424!16s%2Fg%2F11hbfh08fh" target="_blank" rel="noopener noreferrer" class="topic-map-link-btn">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Abrir no Google Maps
+              </a>
+            </div>
+          </div>
+
+          <!-- Coluna 2: Formulário Interativo de Agendamento -->
+          <div class="topic-contact-form-card">
+            <h3 class="topic-form-title">Agendar consulta</h3>
+            <p class="topic-form-subtitle">Preencha e a mensagem será aberta no WhatsApp</p>
+
+            <form class="topic-whatsapp-form">
+              <div class="topic-form-field">
+                <label class="topic-form-label" for="formNome">Nome</label>
+                <input type="text" id="formNome" name="nome" class="topic-form-input" placeholder="Seu nome completo" required>
+              </div>
+
+              <div class="topic-form-field">
+                <label class="topic-form-label" for="formTelefone">Telefone / WhatsApp</label>
+                <input type="tel" id="formTelefone" name="telefone" class="topic-form-input" placeholder="(35) 99999-9999" required>
+              </div>
+
+              <div class="topic-form-field">
+                <label class="topic-form-label" for="formInteresse">Interesse</label>
+                <select id="formInteresse" name="interesse" class="topic-form-select">
+
+                    <option value="Ansiedade" selected>Ansiedade</option>
+  
+                    <option value="Depressão" >Depressão</option>
+  
+                    <option value="Burnout" >Burnout</option>
+  
+                    <option value="Luto" >Luto</option>
+  
+                    <option value="Autoconhecimento" >Autoconhecimento</option>
+  
+                    <option value="Autoestima" >Autoestima</option>
+  
+                    <option value="Equilíbrio emocional feminino" >Equilíbrio emocional feminino</option>
+  
+                    <option value="Terapia de Casal" >Terapia de Casal</option>
+  
+                    <option value="Psicologia Esportiva & eSports" >Psicologia Esportiva & eSports</option>
+  
+                    <option value="Adequação NR-01 & Corporativo" >Adequação NR-01 & Corporativo</option>
+  
+                    <option value="Perícias & Assistência Técnica" >Perícias & Assistência Técnica</option>
+  
+                    <option value="Palestras & Workshops" >Palestras & Workshops</option>
+  
+                </select>
+              </div>
+
+              <div class="topic-form-field">
+                <label class="topic-form-label" for="formMensagem">Mensagem (opcional)</label>
+                <textarea id="formMensagem" name="mensagem" class="topic-form-textarea" placeholder="Conte brevemente o que você busca na terapia..."></textarea>
+              </div>
+
+              <button type="submit" class="btn-whatsapp-submit">
+                <i class="fa-brands fa-whatsapp"></i> Enviar pelo WhatsApp
+              </button>
+
+              <p class="topic-form-microcopy">
+                <i class="fa-solid fa-lock"></i> Seus dados são usados apenas para contato, com total sigilo.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       RODAPÉ LIGHT (MOCKUP: 3 COLUNAS)
+       ========================================================================== -->
+  <footer class="topic-footer-light">
+    <div class="container">
+      <div class="topic-footer-grid">
+        <!-- Coluna 1: Marca & Registro -->
+        <div class="topic-footer-col">
+          <div class="topic-footer-brand-header">
+            <img src="assets/images/logo-horizontal-nav.png?v=20261008" alt="Clésio Batista" class="topic-footer-logo-img">
+          </div>
+          <p class="topic-footer-desc">
+            Clésio Batista | Psicologia & Desenvolvimento • CRP: 04/48009.<br>
+            Atendimento particular, presencial em São Sebastião do Paraíso/MG e online para todo o Brasil e exterior.
+          </p>
+        </div>
+
+        <!-- Coluna 2: Contato -->
+        <div class="topic-footer-col">
+          <h4>CONTATO</h4>
+          <ul class="topic-footer-links-list">
+            <li><i class="fa-brands fa-whatsapp" style="color: var(--primary); margin-right: 0.4rem;"></i> (35) 98443-4399</li>
+            <li><i class="fa-solid fa-phone" style="color: var(--primary); margin-right: 0.4rem;"></i> (35) 98443-4399</li>
+            <li><i class="fa-solid fa-envelope" style="color: var(--primary); margin-right: 0.4rem;"></i> contato@clesiobatista.com.br</li>
+            <li><i class="fa-solid fa-location-dot" style="color: var(--primary); margin-right: 0.4rem;"></i> São Sebastião do Paraíso – MG</li>
+          </ul>
+        </div>
+
+        <!-- Coluna 3: Tratamentos -->
+        <div class="topic-footer-col">
+          <h4>TRATAMENTOS</h4>
+          <ul class="topic-footer-links-list">
+            <li><a href="ansiedade.html">Ansiedade</a></li>
+            <li><a href="depressao.html">Depressão</a></li>
+            <li><a href="burnout.html">Burnout</a></li>
+            <li><a href="luto.html">Luto</a></li>
+            <li><a href="autoconhecimento.html">Autoconhecimento</a></li>
+            <li><a href="autoestima.html">Autoestima</a></li>
+            <li><a href="equilibrio-feminino.html">Equilíbrio emocional feminino</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Barra Inferior -->
+      <div class="topic-footer-bottom-bar">
+        <span>© Clésio Batista • Todos os direitos reservados. CRP: 04/48009</span>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#" style="color: inherit;">Política de Privacidade</a>
+          <a href="#" style="color: inherit;">Termos de Uso</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão Flutuante de WhatsApp -->
+  <a href="https://wa.me/5535984434399?text=Ol%C3%A1%2C%20Dr.%20Cl%C3%A9sio!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20e%20agendamento%20sobre%20o%20atendimento%20para%20Ansiedade." target="_blank" rel="noopener noreferrer" class="floating-whatsapp-btn" aria-label="Falar no WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>

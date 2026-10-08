@@ -1,20 +1,22 @@
-# Usar Nginx Alpine como imagem base leve e performática
+# Imagem base ultra-leve com Nginx Alpine
 FROM nginx:alpine
 
-# Remover a página padrão do Nginx
-RUN rm -rf /usr/share/nginx/html/*
+# Remove a configuração padrão do Nginx
+RUN rm -rf /etc/nginx/conf.d/default.conf
 
-# Copiar os arquivos estáticos da aplicação para o diretório web do Nginx
-COPY index.html /usr/share/nginx/html/
-COPY styles.css /usr/share/nginx/html/
-COPY script.js /usr/share/nginx/html/
-COPY assets/ /usr/share/nginx/html/assets/
-
-# Copiar arquivo de configuração customizado do Nginx se necessário
+# Copia nossa configuração de produção
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Expor a porta 80 do container
+# Copia os arquivos da aplicação
+COPY . /usr/share/nginx/html
+
+# Permissões adequadas de leitura
+RUN chmod -R 755 /usr/share/nginx/html
+
+# Porta padrão HTTP
 EXPOSE 80
 
-# Comando para rodar o Nginx em primeiro plano
+# Inicialização
+STOPSIGNAL SIGQUIT
 CMD ["nginx", "-g", "daemon off;"]
+

@@ -371,9 +371,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 7. Scroll Reveal Animation (Intersection Observer)
+  // 7. Scroll Reveal Animation (Intersection Observer Resiliente)
   const revealElements = document.querySelectorAll('[data-reveal]');
-  if ('IntersectionObserver' in window) {
+  if ('IntersectionObserver' in window && window.matchMedia('(prefers-reduced-motion: no-preference)').matches) {
+    document.documentElement.classList.add('js-ready');
     const revealObserver = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -382,8 +383,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
     }, {
-      threshold: 0.12,
-      rootMargin: '0px 0px -40px 0px'
+      threshold: 0.08,
+      rootMargin: '0px 0px 50px 0px'
     });
 
     revealElements.forEach(el => revealObserver.observe(el));

@@ -316,11 +316,12 @@ function generatePageHtml(topic) {
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
   <!-- Folhas de Estilos com Cache Busting -->
-  <link rel="stylesheet" href="styles.css?v=20261008_01">
-  <link rel="stylesheet" href="topic.css?v=20261008_01">
+  <link rel="stylesheet" href="styles.css?v=20261008_03">
+  <link rel="stylesheet" href="topic.css?v=20261008_03">
 
   <!-- Estilo Crítico Estrutural (Garante renderização imediata sem dependência de cache de navegador) -->
   <style>
+    [data-reveal] { opacity: 1 !important; transform: none !important; }
     .breadcrumb-list { display: flex !important; list-style: none !important; padding: 0 !important; margin: 0 !important; gap: 0.65rem; }
     .breadcrumb-list li { display: inline-flex !important; list-style: none !important; }
     .topic-hero-grid { display: grid !important; grid-template-columns: 1.25fr 0.75fr !important; gap: 3.5rem !important; align-items: center !important; }
@@ -720,7 +721,7 @@ ${selectOptionsHtml}
   </footer>
 
   <!-- Scripts -->
-  <script src="script.js"></script>
+  <script src="script.js?v=20261008_03"></script>
 </body>
 </html>`;
 }

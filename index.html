@@ -27,11 +27,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
   <!-- Folha de Estilos com Cache Busting -->
-  <link rel="stylesheet" href="styles.css?v=20261007_07">
-  <link rel="stylesheet" href="topic.css?v=20261007_07">
+  <link rel="stylesheet" href="styles.css?v=20261008_03">
+  <link rel="stylesheet" href="topic.css?v=20261008_03">
 
-  <!-- Estilo Crítico Estrutural dos Serviços (Garante renderização instantânea dos cards) -->
+  <!-- Estilo Crítico Estrutural (Garante renderização imediata e visibilidade 100%) -->
   <style>
+    [data-reveal] { opacity: 1 !important; transform: none !important; }
     .services-clean-grid {
       display: grid !important;
       grid-template-columns: repeat(3, 1fr) !important;
@@ -647,6 +648,6 @@
   </div>
 
   <!-- Scripts -->
-  <script src="script.js"></script>
+  <script src="script.js?v=20261008_03"></script>
 </body>
 </html>

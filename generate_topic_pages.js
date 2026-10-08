@@ -719,11 +719,6 @@ ${selectOptionsHtml}
     </div>
   </footer>
 
-  <!-- Botão Flutuante de WhatsApp -->
-  <a href="https://wa.me/5535984434399?text=${whatsappMsg}" target="_blank" rel="noopener noreferrer" class="floating-whatsapp-btn" aria-label="Falar no WhatsApp">
-    <i class="fa-brands fa-whatsapp"></i>
-  </a>
-
   <!-- Scripts -->
   <script src="script.js"></script>
 </body>

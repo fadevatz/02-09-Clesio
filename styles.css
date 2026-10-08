@@ -1482,32 +1482,6 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(0);
 }
 
-/* Tooltip do botão flutuante de WhatsApp */
-.floating-whatsapp-btn::before {
-  content: 'Agende pelo WhatsApp';
-  position: absolute;
-  right: 70px;
-  background-color: var(--bg-dark-forest);
-  color: #FFFFFF;
-  font-size: 0.82rem;
-  font-weight: 600;
-  padding: 0.45rem 0.9rem;
-  border-radius: var(--radius-pill);
-  white-space: nowrap;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.25);
-  opacity: 0;
-  visibility: hidden;
-  transform: translateX(10px);
-  transition: all var(--transition-fast);
-  pointer-events: none;
-}
-
-.floating-whatsapp-btn:hover::before {
-  opacity: 1;
-  visibility: visible;
-  transform: translateX(0);
-}
-
 /* ==========================================================================
    RESPONSIVIDADE & MEDIA QUERIES
    ========================================================================== */

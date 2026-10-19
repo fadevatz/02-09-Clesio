@@ -1,0 +1,14 @@
+# Robots.txt - Dr. Clésio Batista | Psicologia & Desenvolvimento
+User-agent: *
+Allow: /
+
+# Arquivos que não precisam ser indexados pelos mecanismos de busca
+Disallow: /Dockerfile
+Disallow: /docker-compose.yml
+Disallow: /nginx.conf
+Disallow: /generate_topic_pages.js
+Disallow: /check_css.js
+Disallow: /*.md$
+
+# Localização do Sitemap oficial
+Sitemap: https://clesiobatista.com.br/sitemap.xml

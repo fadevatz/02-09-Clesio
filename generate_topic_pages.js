@@ -297,6 +297,7 @@ function generatePageHtml(topic) {
   <meta name="author" content="Dr. Clésio Batista">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <meta name="google-site-verification" content="VN3GYIT4__oBTP339KpZtjMbLeRkMuadxFUYRd_H2RI">
+  <meta name="msvalidate.01" content="0C95B0DE10591CE65220A8F22CC2A64A">
   <link rel="canonical" href="https://clesiobatista.com.br/${topic.slug}.html">
 
   <!-- Palavras-chave SEO Estratégicas -->

@@ -12,3 +12,4 @@ Disallow: /*.md$
 
 # Localização do Sitemap oficial
 Sitemap: https://clesiobatista.com.br/sitemap.xml
+

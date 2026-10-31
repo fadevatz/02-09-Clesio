@@ -11,6 +11,28 @@
     gtag('config', 'AW-18509290192');
   </script>
 
+  <!-- Event snippet for Visualização de página conversion page -->
+  <script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    if (typeof gtag === 'function') {
+      gtag('event', 'conversion', {
+          'send_to': 'AW-18509290192/CkcuCMr7v64dENC19flE',
+          'value': 1.0,
+          'currency': 'BRL',
+          'event_callback': callback
+      });
+    } else {
+      callback();
+    }
+    return false;
+  }
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adequação NR-01 & Corporativo | Dr. Clésio Batista • Psicologia & Desenvolvimento</title>

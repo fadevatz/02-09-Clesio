@@ -467,7 +467,20 @@ document.addEventListener('DOMContentLoaded', () => {
       if (msgExtra) text += ` Mensagem: ${msgExtra}`;
 
       const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+      
+      if (typeof window.gtag_report_conversion === 'function') {
+        window.gtag_report_conversion();
+      }
+
       window.open(url, '_blank', 'noopener,noreferrer');
     });
+  });
+
+  // 11. Disparo de Conversão Google Ads nos cliques de agendamento / WhatsApp
+  document.addEventListener('click', (e) => {
+    const targetLink = e.target.closest('a[href*="wa.me"]');
+    if (targetLink && typeof window.gtag_report_conversion === 'function') {
+      window.gtag_report_conversion();
+    }
   });
 });

@@ -468,6 +468,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
       
+      // Disparo de evento personalizado para o GTM (dataLayer)
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: 'whatsapp_form_submit',
+        lead_interesse: interesse
+      });
+
       if (typeof window.gtag_report_conversion === 'function') {
         window.gtag_report_conversion();
       }
@@ -476,11 +483,19 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // 11. Disparo de Conversão Google Ads nos cliques de agendamento / WhatsApp
+  // 11. Disparo de Conversão Google Ads / GTM nos cliques de agendamento / WhatsApp
   document.addEventListener('click', (e) => {
     const targetLink = e.target.closest('a[href*="wa.me"]');
-    if (targetLink && typeof window.gtag_report_conversion === 'function') {
-      window.gtag_report_conversion();
+    if (targetLink) {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: 'whatsapp_click',
+        link_url: targetLink.href
+      });
+
+      if (typeof window.gtag_report_conversion === 'function') {
+        window.gtag_report_conversion();
+      }
     }
   });
 });

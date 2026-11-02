@@ -298,6 +298,13 @@ function generatePageHtml(topic) {
     gtag('js', new Date());
 
     gtag('config', 'AW-18509290192');
+
+    // Evento de conversão para Visualização de Página (AW-18509290192/CkcuCMr7v64dENC19flE)
+    gtag('event', 'conversion', {
+      'send_to': 'AW-18509290192/CkcuCMr7v64dENC19flE',
+      'value': 1.0,
+      'currency': 'BRL'
+    });
   </script>
 
   <!-- Google Tag Manager -->

@@ -280,7 +280,7 @@ function generatePageHtml(topic) {
 
   const proseHtml = topic.prose.map(p => `<p>${p}</p>`).join('\n');
 
-  const whatsappMsg = encodeURIComponent(`Olá, Dr. Clésio! Gostaria de mais informações e agendamento sobre o atendimento para ${topic.name}.`);
+  const whatsappMsg = encodeURIComponent(`Olá, Clésio! Gostaria de mais informações sobre seus atendimentos.`);
 
   // Generate options for the select form
   const selectOptionsHtml = topics.map(t => `

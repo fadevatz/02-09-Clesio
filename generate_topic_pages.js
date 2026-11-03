@@ -13,7 +13,7 @@ const topics = [
     prose: [
       'A ansiedade é uma resposta natural do organismo diante de ameaças, mas quando se torna constante, intensa e desproporcional às situações reais, ela passa a limitar a sua liberdade, o seu sono e a sua qualidade de vida.',
       'Sintomas como pensamentos acelerados, sensação contínua de alerta, aperto no peito e medo incapacitante de perder o controle são sinais claros de que o sistema nervoso necessita de acolhimento e regulação técnica.',
-      'No atendimento com o Dr. Clésio Batista, fundamentado na Terapia Cognitivo-Comportamental (TCC) e em técnicas de regulação emocional, você aprende a identificar gatilhos, desarmar distorções cognitivas e desenvolver ferramentas práticas para retomar a serenidade no dia a dia.'
+      'No atendimento com o Clésio Batista, fundamentado na Terapia Cognitivo-Comportamental (TCC) e em técnicas de regulação emocional, você aprende a identificar gatilhos, desarmar distorções cognitivas e desenvolver ferramentas práticas para retomar a serenidade no dia a dia.'
     ],
     checklist: [
       'Preocupação excessiva e pensamentos acelerados',
@@ -34,7 +34,7 @@ const topics = [
     prose: [
       'A depressão afeta a forma como você sente, pensa e lida com as atividades diárias. Ela se manifesta através de um desânimo profundo, perda de energia, apatia e a sensação de que nada mais tem o mesmo valor de antes.',
       'Muitas vezes, a pessoa tenta se forçar a "ficar bem" pela cobrança social, o que aumenta a culpa e a exaustão. A terapia oferece um refúgio seguro onde essa dor não precisa ser mascarada nem julgada.',
-      'O trabalho clínico conduzido pelo Dr. Clésio Batista une empatia e evidências científicas para reativar gradualmente pequenos passos de bem-estar, reorganizar padrões de pensamento e reconstruir um caminho com propósito e vitalidade.'
+      'O trabalho clínico conduzido pelo Clésio Batista une empatia e evidências científicas para reativar gradualmente pequenos passos de bem-estar, reorganizar padrões de pensamento e reconstruir um caminho com propósito e vitalidade.'
     ],
     checklist: [
       'Perda de interesse e prazer nas atividades cotidianas',
@@ -97,7 +97,7 @@ const topics = [
     prose: [
       'Viver no piloto automático é um dos maiores desafios da atualidade. Muitas vezes tomamos decisões baseadas nas expectativas dos outros, sem compreender com clareza o que realmente faz sentido para a nossa própria vida.',
       'A psicoterapia voltada ao autoconhecimento proporciona um mergulho estruturado sobre a sua trajetória, crenças centrais, forças pessoais e bloqueios emocionais que repetem ciclos indesejados.',
-      'Ao compreender suas dinâmicas internas com o suporte profissional do Dr. Clésio, você ganha autonomia para fazer escolhas mais maduras, construir relacionamentos saudáveis e viver com autenticidade.'
+      'Ao compreender suas dinâmicas internas com o suporte profissional do Clésio, você ganha autonomia para fazer escolhas mais maduras, construir relacionamentos saudáveis e viver com autenticidade.'
     ],
     checklist: [
       'Sensação de estar vivendo no "piloto automático"',
@@ -118,7 +118,7 @@ const topics = [
     prose: [
       'A baixa autoestima se desenvolve através de experiências de rejeição, críticas severas ou comparações contínuas. Ela se traduz em um diálogo interno punitivo, onde a pessoa duvida da sua capacidade e se sente constantemente insuficiente.',
       'Isso afeta diretamente os relacionamentos amorosos, o avanço na carreira e a tomada de decisões, fazendo com que a pessoa aceite menos do que merece por medo de não ser aceita.',
-      'O trabalho terapêutico com o Dr. Clésio foca na desconstrução da autocrítica destrutiva, fortalecimento do autocuidado, reconhecimento das suas conquistas e consolidação do respeito próprio.'
+      'O trabalho terapêutico com o Clésio foca na desconstrução da autocrítica destrutiva, fortalecimento do autocuidado, reconhecimento das suas conquistas e consolidação do respeito próprio.'
     ],
     checklist: [
       'Autocrítica severa e diálogo interno punitivo',
@@ -159,7 +159,7 @@ const topics = [
     heroDesc: 'Superar ruídos de comunicação, reparar mágoas e alinhar expectativas para novos ciclos de vida a dois.',
     prose: [
       'Com o passar do tempo, o estresse do dia a dia, falhas na comunicação e mudanças individuais podem criar ruídos e afastamento entre os parceiros, gerando discussões repetitivas sem solução.',
-      'A Terapia de Casal conduzida pelo Dr. Clésio Batista atua como um espaço neutro, ético e seguro para que ambas as partes possam expressar suas necessidades, ouvir verdadeiramente e identificar os ciclos destrutivos do casal.',
+      'A Terapia de Casal conduzida pelo Clésio Batista atua como um espaço neutro, ético e seguro para que ambas as partes possam expressar suas necessidades, ouvir verdadeiramente e identificar os ciclos destrutivos do casal.',
       'O foco é restabelecer o diálogo empático, reconstruir a confiança, alinhar planos futuros e, quando necessário, mediar transições de forma consciente e respeitosa.'
     ],
     checklist: [
@@ -181,7 +181,7 @@ const topics = [
     prose: [
       'No esporte tradicional e nos eSports, a preparação física e tática só atinge seu ápice quando acompanhada de um treinamento psicológico estruturado (Mental Training).',
       'A ansiedade pré-competitiva, a dificuldade de manter a concentração em momentos decisivos, o "tilt" em campeonatos e a gestão da pressão por patrocinadores e torcida podem minar o talento de um atleta.',
-      'Com metodologia especializada, o Dr. Clésio trabalha a blindagem psicológica, controle de foco, recuperação emocional de lesões e rotinas de alta performance para competidores de elite.'
+      'Com metodologia especializada, o Clésio trabalha a blindagem psicológica, controle de foco, recuperação emocional de lesões e rotinas de alta performance para competidores de elite.'
     ],
     checklist: [
       'Ansiedade pré-competitiva e bloqueio em momentos decisivos',
@@ -202,7 +202,7 @@ const topics = [
     prose: [
       'As recentes atualizações nas Normas Regulamentadoras (NR-01) tornaram obrigatória a identificação, avaliação e gestão dos riscos psicossociais nos ambientes de trabalho pelas organizações.',
       'Problemas como sobrecarga, assédio, falta de clareza de papéis e estresse ocupacional aumentam o absenteísmo, afastamentos por burnout e riscos de passivos trabalhistas.',
-      'O Dr. Clésio Batista oferece consultoria corporativa especializada para mapeamento de clima, laudos de risco psicossocial, treinamentos de liderança humanizada e implementação de Programas de Apoio ao Colaborador.'
+      'O Clésio Batista oferece consultoria corporativa especializada para mapeamento de clima, laudos de risco psicossocial, treinamentos de liderança humanizada e implementação de Programas de Apoio ao Colaborador.'
     ],
     checklist: [
       'Adequação técnica obrigatória às novas exigências da NR-01/PGR',
@@ -223,7 +223,7 @@ const topics = [
     prose: [
       'Em processos judiciais que envolvem questões de família, cíveis ou trabalhistas, a atuação do psicólogo como assistente técnico de confiança da parte é determinante para garantir o devido respaldo técnico e ético.',
       'O assistente técnico formula quesitos específicos, acompanha avaliações periciais, analisa criticamente os laudos formulados pelo perito do juízo e elabora pareceres técnicos fundamentados.',
-      'Com rigor metodológico e respaldo no Código de Ética do CFP, o Dr. Clésio presta assistência técnica pericial em ações de guarda, alienação parental, regulamentação de convivência e avaliação de danos psíquicos.'
+      'Com rigor metodológico e respaldo no Código de Ética do CFP, o Clésio presta assistência técnica pericial em ações de guarda, alienação parental, regulamentação de convivência e avaliação de danos psíquicos.'
     ],
     checklist: [
       'Atuação como Assistente Técnico em processos judiciais cíveis e de família',
@@ -244,7 +244,7 @@ const topics = [
     prose: [
       'A psicoeducação é uma poderosa ferramenta de transformação coletiva. Levar palestras e workshops práticos para empresas, instituições de ensino e órgãos públicos promove conscientização e prevenção em saúde mental.',
       'Temas como prevenção ao suicídio (Setembro Amarelo), saúde mental no trabalho (Janeiro Branco), inteligência emocional e comunicação não violenta são abordados com dinamismo, empatia e base científica.',
-      'Além disso, o Dr. Clésio oferece supervisão clínica continuada para psicólogos e recém-formados, orientando a condução de casos clínicos complexos e o aprimoramento da prática terapêutica.'
+      'Além disso, o Clésio oferece supervisão clínica continuada para psicólogos e recém-formados, orientando a condução de casos clínicos complexos e o aprimoramento da prática terapêutica.'
     ],
     checklist: [
       'Palestras para Campanhas de Conscientização (Setembro Amarelo, Janeiro Branco)',
@@ -317,16 +317,16 @@ function generatePageHtml(topic) {
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${topic.name} | Dr. Clésio Batista • Psicologia & Desenvolvimento</title>
-  <meta name="description" content="${topic.heroDesc} Atendimento presencial em São Sebastião do Paraíso - MG e online para todo o Brasil e exterior com o psicólogo Dr. Clésio Batista (CRP 04/48009).">
-  <meta name="author" content="Dr. Clésio Batista">
+  <title>${topic.name} | Clésio Batista • Psicologia & Desenvolvimento</title>
+  <meta name="description" content="${topic.heroDesc} Atendimento presencial em São Sebastião do Paraíso - MG e online para todo o Brasil e exterior com o psicólogo Clésio Batista (CRP 04/48009).">
+  <meta name="author" content="Clésio Batista">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <meta name="google-site-verification" content="VN3GYIT4__oBTP339KpZtjMbLeRkMuadxFUYRd_H2RI">
   <meta name="msvalidate.01" content="0C95B0DE10591CE65220A8F22CC2A64A">
   <link rel="canonical" href="https://clesiobatista.com.br/${topic.slug}.html">
 
   <!-- Palavras-chave SEO Estratégicas -->
-  <meta name="keywords" content="${topic.name}, Psicólogo ${topic.name}, Dr. Clésio Batista, psicólogo São Sebastião do Paraíso, terapia cognitivo comportamental, tratamento ${topic.name}, atendimento psicológico online, CRP 04/48009">
+  <meta name="keywords" content="${topic.name}, Psicólogo ${topic.name}, Clésio Batista, psicólogo São Sebastião do Paraíso, terapia cognitivo comportamental, tratamento ${topic.name}, atendimento psicológico online, CRP 04/48009">
 
   <!-- Meta Geo Tags para Busca Local -->
   <meta name="geo.region" content="BR-MG">
@@ -337,18 +337,18 @@ function generatePageHtml(topic) {
   <!-- Open Graph / Redes Sociais & WhatsApp -->
   <meta property="og:locale" content="pt_BR">
   <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Dr. Clésio Batista | Psicologia & Desenvolvimento">
-  <meta property="og:title" content="${topic.name} | Dr. Clésio Batista • CRP 04/48009">
+  <meta property="og:site_name" content="Clésio Batista | Psicologia & Desenvolvimento">
+  <meta property="og:title" content="${topic.name} | Clésio Batista • CRP 04/48009">
   <meta property="og:description" content="${topic.heroDesc}">
   <meta property="og:url" content="https://clesiobatista.com.br/${topic.slug}.html">
   <meta property="og:image" content="https://clesiobatista.com.br/assets/images/dr-clesio-azul.png?v=20261008">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Dr. Clésio Batista - Psicólogo para ${topic.name}">
+  <meta property="og:image:alt" content="Clésio Batista - Psicólogo para ${topic.name}">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${topic.name} | Dr. Clésio Batista • CRP 04/48009">
+  <meta name="twitter:title" content="${topic.name} | Clésio Batista • CRP 04/48009">
   <meta name="twitter:description" content="${topic.heroDesc}">
   <meta name="twitter:image" content="https://clesiobatista.com.br/assets/images/dr-clesio-azul.png?v=20261008">
 
@@ -359,11 +359,11 @@ function generatePageHtml(topic) {
     "@type": ["MedicalWebPage", "ItemPage"],
     "@id": "https://clesiobatista.com.br/${topic.slug}.html#webpage",
     "url": "https://clesiobatista.com.br/${topic.slug}.html",
-    "name": "${topic.name} | Dr. Clésio Batista",
+    "name": "${topic.name} | Clésio Batista",
     "description": "${topic.heroDesc}",
     "isPartOf": {
       "@type": "WebSite",
-      "name": "Dr. Clésio Batista | Psicologia & Desenvolvimento",
+      "name": "Clésio Batista | Psicologia & Desenvolvimento",
       "url": "https://clesiobatista.com.br/"
     },
     "mainEntity": {
@@ -372,7 +372,7 @@ function generatePageHtml(topic) {
       "serviceType": "${topic.name}",
       "provider": {
         "@type": ["Psychologist", "LocalBusiness"],
-        "name": "Dr. Clésio Batista - Psicologia & Desenvolvimento",
+        "name": "Clésio Batista - Psicologia & Desenvolvimento",
         "telephone": "+55-35-98443-4399",
         "address": {
           "@type": "PostalAddress",
@@ -402,6 +402,7 @@ function generatePageHtml(topic) {
   <!-- Folhas de Estilos com Cache Busting -->
   <link rel="stylesheet" href="styles.css?v=20261008_03">
   <link rel="stylesheet" href="topic.css?v=20261008_03">
+  <link rel="stylesheet" href="theme.css?v=20261103">
 
   <!-- Estilo Crítico Estrutural (Garante renderização imediata sem dependência de cache de navegador) -->
   <style>
@@ -440,7 +441,7 @@ function generatePageHtml(topic) {
   <header class="header-navbar">
     <div class="container nav-wrapper">
       <a href="index.html#inicio" class="brand-identity" aria-label="Página Inicial - Clésio Batista">
-        <img src="assets/images/logo-horizontal-nav.png?v=20261008" alt="Clésio Batista - Psicologia & Desenvolvimento • CRP 04/48009" class="nav-brand-logo">
+        <img src="assets/images/logo-horizontal-claro.png?v=20261103" alt="Clésio Batista - Psicologia & Desenvolvimento • CRP 04/48009" class="nav-brand-logo">
       </a>
 
       <!-- Menu Desktop -->
@@ -505,7 +506,7 @@ function generatePageHtml(topic) {
         </div>
 
         <div class="topic-hero-image-wrap">
-          <img src="assets/images/dr-clesio-azul.png?v=20261008" alt="Dr. Clésio Batista Psicólogo" class="topic-hero-img">
+          <img src="assets/images/dr-clesio-azul.png?v=20261008" alt="Clésio Batista Psicólogo" class="topic-hero-img">
         </div>
       </div>
     </section>
@@ -763,7 +764,7 @@ ${selectOptionsHtml}
         <!-- Coluna 1: Marca & Registro -->
         <div class="topic-footer-col">
           <div class="topic-footer-brand-header">
-            <img src="assets/images/logo-horizontal-nav.png?v=20261008" alt="Clésio Batista" class="topic-footer-logo-img">
+            <img src="assets/images/logo-horizontal-claro.png?v=20261103" alt="Clésio Batista" class="topic-footer-logo-img">
           </div>
           <p class="topic-footer-desc">
             Clésio Batista | Psicologia & Desenvolvimento • CRP: 04/48009.<br>

@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // 1. WhatsApp Base URL e Número Oficial
   const WHATSAPP_NUMBER = '5535984434399';
 
-  // 2. Base de Dados dos 12 Serviços do Dr. Clésio Batista
+  // 2. Base de Dados dos 12 Serviços do Clésio Batista
   const servicesData = {
     'psicoterapia-individual': {
       category: '01 Clínica & Cuidado Individual',
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
     modalImg.src = data.image;
     modalImg.alt = data.title;
 
-    const message = encodeURIComponent(`Olá, Dr. Clésio! Gostaria de mais informações e agendamento sobre: ${data.title}.`);
+    const message = encodeURIComponent(`Olá, Clésio! Gostaria de mais informações e agendamento sobre: ${data.title}.`);
     modalWhatsAppBtn.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
     modalWhatsAppBtn.innerHTML = `<i class="fa-brands fa-whatsapp"></i> ${data.ctaText}`;
 
@@ -272,7 +272,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // 6. Carrossel de Depoimentos (Avaliações Verificadas Google Maps 5.0)
   const testimonials = [
     {
-      quote: '"Excelente profissional! Extremamente ético, atencioso e pontual. O Dr. Clésio me ajudou profundamente a reencontrar o equilíbrio emocional e superar crises de ansiedade. Recomendo de olhos fechados!"',
+      quote: '"Excelente profissional! Extremamente ético, atencioso e pontual. O Clésio me ajudou profundamente a reencontrar o equilíbrio emocional e superar crises de ansiedade. Recomendo de olhos fechados!"',
       author: 'Avaliação Google Maps • 5.0 ★★★★★ (Paciente Verificada)',
       avatar: 'assets/images/depoimento-juliana.jpg'
     },
@@ -282,7 +282,7 @@ document.addEventListener('DOMContentLoaded', () => {
       avatar: 'assets/images/depoimento-carlos.jpg'
     },
     {
-      quote: '"Profissional maravilhoso! Fazer psicoterapia com o Dr. Clésio transformou minha relação com o trabalho e a rotina, diminuindo o estresse e trazendo clareza para a vida. Gratidão imensa pelo cuidado e competência."',
+      quote: '"Profissional maravilhoso! Fazer psicoterapia com o Clésio transformou minha relação com o trabalho e a rotina, diminuindo o estresse e trazendo clareza para a vida. Gratidão imensa pelo cuidado e competência."',
       author: 'Avaliação Google Maps • 5.0 ★★★★★ (Paciente Verificada)',
       avatar: 'assets/images/depoimento-mariana.jpg'
     }
@@ -461,7 +461,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const interesse = interesseInput ? interesseInput.value.trim() : 'Atendimento Psicológico';
       const msgExtra = msgInput ? msgInput.value.trim() : '';
 
-      let text = `Olá, Dr. Clésio! Meu nome é ${nome}`;
+      let text = `Olá, Clésio! Meu nome é ${nome}`;
       if (tel) text += ` (${tel})`;
       text += ` e gostaria de agendar uma consulta sobre *${interesse}*.`;
       if (msgExtra) text += ` Mensagem: ${msgExtra}`;

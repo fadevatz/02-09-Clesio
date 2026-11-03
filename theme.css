@@ -1,0 +1,41 @@
+/* Tema A: verde floresta e dourado. Carregado depois de styles.css e topic.css. */
+:root {
+  --ink-950: #0A1C17; --ink-900: #0F2620; --ink-800: #15322A; --ink-700: #1F4237;
+  --line-dark: rgba(232, 214, 182, 0.14);
+  --gold: #C9A46A; --gold-hover: #D9B985; --gold-deep: #8C6A35; --gold-light: #E8D6B6;
+  --gold-soft: rgba(201, 164, 106, 0.12);
+  --cream: #F4EEE3; --cream-muted: rgba(244, 238, 227, 0.74); --cream-subtle: rgba(244, 238, 227, 0.52);
+  --paper: #F6F1E8; --paper-card: #FFFFFF; --ink-text: #1C2421; --ink-text-muted: #545C58;
+  --primary: var(--gold-deep); --primary-hover: #74572B; --primary-subtle: var(--gold-soft);
+  --bg-canvas: var(--paper); --bg-canvas-subtle: #EFE8DC; --bg-dark-forest: var(--ink-900);
+  --text-main: var(--ink-text); --text-muted: var(--ink-text-muted); --border-card: #E6DDCF;
+}
+body { background-color: var(--paper); color: var(--ink-text); }
+
+.header-navbar, .header-navbar.scrolled { background-color: var(--ink-900); border-bottom: 1px solid var(--line-dark); }
+.header-navbar a { color: var(--cream); }
+.header-navbar a:hover { color: var(--gold); }
+
+.hero-full-overlay { background: linear-gradient(90deg, rgba(10,28,23,0.92) 0%, rgba(10,28,23,0.70) 55%, rgba(10,28,23,0.35) 100%); }
+.hero-full-content, .hero-full-content .hero-title { color: var(--cream); }
+.hero-full-content .eyebrow { color: var(--gold); }
+
+footer, .footer-section, .conversion-banner { background-color: var(--ink-900); color: var(--cream-muted); }
+footer a, .footer-section a { color: var(--cream); }
+footer a:hover, .footer-section a:hover { color: var(--gold); }
+
+.btn-primary, .hero-btn-main {
+  background-color: var(--gold); color: var(--ink-950); border: 1px solid var(--gold);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+.btn-primary:hover, .hero-btn-main:hover { background-color: var(--gold-hover); border-color: var(--gold-hover); color: var(--ink-950); }
+.hero-btn-sub { background: transparent; color: var(--cream); border: 1px solid rgba(244, 238, 227, 0.38); }
+.hero-btn-sub:hover { background: rgba(244, 238, 227, 0.08); color: var(--cream); border-color: var(--gold); }
+.section-light .btn-primary { background-color: var(--ink-900); border-color: var(--ink-900); color: var(--cream); }
+
+@media (max-width: 768px) {
+  .header-navbar .nav-wrapper { padding-left: 16px; padding-right: 16px; }
+  .nav-brand-logo { height: 42px; }
+}
+.hero-full-bg-image { object-fit: cover; object-position: 70% 20%; }
+@media (max-width: 768px) { .hero-full-bg-image { object-position: 60% 15%; } }

@@ -37,3 +37,5 @@ footer a:hover, .footer-section a:hover { color: var(--gold); }
   .header-navbar .nav-wrapper { padding-left: 16px; padding-right: 16px; }
   .nav-brand-logo { height: 42px; }
 }
+.hero-full-bg-image { object-fit: cover; object-position: 70% 20%; }
+@media (max-width: 768px) { .hero-full-bg-image { object-position: 60% 15%; } }

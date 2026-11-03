@@ -37,5 +37,15 @@ footer a:hover, .footer-section a:hover { color: var(--gold); }
   .header-navbar .nav-wrapper { padding-left: 16px; padding-right: 16px; }
   .nav-brand-logo { height: 42px; }
 }
-.hero-full-bg-image { object-fit: cover; object-position: 70% 20%; }
 @media (max-width: 768px) { .hero-full-bg-image { object-position: 60% 15%; } }
+
+/* Ajustes após conferência no site publicado */
+.hero-section-full { background-color: var(--ink-950); }
+@media (min-width: 769px) {
+  .hero-bg-wrapper { left: auto; right: 0; width: 55%; }
+  .hero-full-bg-image { object-position: center 25%; }
+  .hero-full-overlay { background: linear-gradient(90deg, var(--ink-950) 0%, var(--ink-950) 42%, rgba(10,28,23,0.55) 62%, rgba(10,28,23,0.10) 100%); }
+}
+.hero-full-content .hero-description { color: var(--cream-muted); }
+.btn-white { background-color: var(--gold); border-color: var(--gold); color: var(--ink-950); }
+.btn-white:hover { background-color: var(--gold-hover); border-color: var(--gold-hover); color: var(--ink-950); }

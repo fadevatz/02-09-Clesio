@@ -49,3 +49,10 @@ footer a:hover, .footer-section a:hover { color: var(--gold); }
 .hero-full-content .hero-description { color: var(--cream-muted); }
 .btn-white { background-color: var(--gold); border-color: var(--gold); color: var(--ink-950); }
 .btn-white:hover { background-color: var(--gold-hover); border-color: var(--gold-hover); color: var(--ink-950); }
+
+/* Foto da abertura mais visível: sombra só na borda esquerda da foto */
+@media (min-width: 769px) {
+  .hero-bg-wrapper { width: 58%; }
+  .hero-full-bg-image { object-position: 60% 20%; }
+  .hero-full-overlay { background: linear-gradient(90deg, var(--ink-950) 0%, var(--ink-950) 42%, rgba(10,28,23,0.45) 48%, rgba(10,28,23,0) 56%, rgba(10,28,23,0) 100%); }
+}
